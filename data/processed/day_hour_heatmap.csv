@@ -1,0 +1,1849 @@
+country_code,country_name,publish_day_name,publish_day_of_week,publish_hour,total_videos,avg_views,avg_engagement
+BR,Brazil,Monday,0,0,36,330629.33,6.45
+BR,Brazil,Monday,0,1,47,269660.15,5.57
+BR,Brazil,Monday,0,2,23,599153.0,4.94
+BR,Brazil,Monday,0,3,23,803793.43,6.97
+BR,Brazil,Monday,0,4,13,327203.23,6.37
+BR,Brazil,Monday,0,5,13,362067.08,6.44
+BR,Brazil,Monday,0,6,5,3222244.6,1.88
+BR,Brazil,Monday,0,7,18,3439146.28,4.1
+BR,Brazil,Monday,0,8,29,4223049.66,2.51
+BR,Brazil,Monday,0,9,81,1795049.49,5.66
+BR,Brazil,Monday,0,10,45,1536885.0,5.56
+BR,Brazil,Monday,0,11,89,1018275.88,7.68
+BR,Brazil,Monday,0,12,53,991962.4,7.2
+BR,Brazil,Monday,0,13,125,896301.04,5.06
+BR,Brazil,Monday,0,14,187,380773.7,4.84
+BR,Brazil,Monday,0,15,344,1678213.7,5.56
+BR,Brazil,Monday,0,16,87,1129299.98,4.9
+BR,Brazil,Monday,0,17,76,716627.07,4.37
+BR,Brazil,Monday,0,18,65,666017.77,6.17
+BR,Brazil,Monday,0,19,67,242767.01,7.21
+BR,Brazil,Monday,0,20,127,281751.48,4.17
+BR,Brazil,Monday,0,21,287,1068761.69,4.73
+BR,Brazil,Monday,0,22,223,614013.54,4.06
+BR,Brazil,Monday,0,23,122,455338.27,6.93
+BR,Brazil,Tuesday,1,0,50,348694.72,7.56
+BR,Brazil,Tuesday,1,1,49,164042.71,7.22
+BR,Brazil,Tuesday,1,2,34,1264183.62,6.02
+BR,Brazil,Tuesday,1,3,18,224687.89,7.0
+BR,Brazil,Tuesday,1,4,29,899538.1,9.98
+BR,Brazil,Tuesday,1,5,19,1819390.0,8.54
+BR,Brazil,Tuesday,1,6,7,2426433.71,4.71
+BR,Brazil,Tuesday,1,7,25,2758439.4,4.12
+BR,Brazil,Tuesday,1,8,26,2535224.0,1.66
+BR,Brazil,Tuesday,1,9,59,1463987.1,8.39
+BR,Brazil,Tuesday,1,10,75,712619.15,5.15
+BR,Brazil,Tuesday,1,11,79,868325.24,8.01
+BR,Brazil,Tuesday,1,12,107,1520671.37,9.76
+BR,Brazil,Tuesday,1,13,169,728974.11,4.7
+BR,Brazil,Tuesday,1,14,274,535725.33,5.61
+BR,Brazil,Tuesday,1,15,367,1584251.64,5.57
+BR,Brazil,Tuesday,1,16,126,1061282.08,4.38
+BR,Brazil,Tuesday,1,17,95,2366957.04,5.01
+BR,Brazil,Tuesday,1,18,85,662901.41,4.8
+BR,Brazil,Tuesday,1,19,91,981356.03,5.52
+BR,Brazil,Tuesday,1,20,185,568470.63,4.48
+BR,Brazil,Tuesday,1,21,313,1332063.2,4.25
+BR,Brazil,Tuesday,1,22,218,585963.96,4.19
+BR,Brazil,Tuesday,1,23,162,939602.54,6.34
+BR,Brazil,Wednesday,2,0,47,412747.74,5.3
+BR,Brazil,Wednesday,2,1,58,1731633.98,5.69
+BR,Brazil,Wednesday,2,2,48,653583.81,4.38
+BR,Brazil,Wednesday,2,3,39,730132.08,6.85
+BR,Brazil,Wednesday,2,4,9,839165.56,6.75
+BR,Brazil,Wednesday,2,5,9,705750.22,3.21
+BR,Brazil,Wednesday,2,6,14,4517557.64,3.97
+BR,Brazil,Wednesday,2,7,18,8613721.44,5.55
+BR,Brazil,Wednesday,2,8,35,1201965.46,2.85
+BR,Brazil,Wednesday,2,9,74,1274550.7,6.19
+BR,Brazil,Wednesday,2,10,56,1741448.18,4.11
+BR,Brazil,Wednesday,2,11,86,4390098.45,9.25
+BR,Brazil,Wednesday,2,12,57,1349792.14,8.08
+BR,Brazil,Wednesday,2,13,178,1062049.85,6.38
+BR,Brazil,Wednesday,2,14,277,377489.69,5.32
+BR,Brazil,Wednesday,2,15,451,1385389.39,5.26
+BR,Brazil,Wednesday,2,16,130,1148199.26,4.38
+BR,Brazil,Wednesday,2,17,101,1123025.24,5.33
+BR,Brazil,Wednesday,2,18,120,575869.62,5.25
+BR,Brazil,Wednesday,2,19,134,528016.22,5.75
+BR,Brazil,Wednesday,2,20,183,291432.67,4.17
+BR,Brazil,Wednesday,2,21,326,881426.26,5.05
+BR,Brazil,Wednesday,2,22,267,450115.42,4.39
+BR,Brazil,Wednesday,2,23,141,311408.26,7.02
+BR,Brazil,Thursday,3,0,67,1031755.64,7.4
+BR,Brazil,Thursday,3,1,66,210788.42,6.41
+BR,Brazil,Thursday,3,2,37,305447.3,5.21
+BR,Brazil,Thursday,3,3,31,2920035.97,6.22
+BR,Brazil,Thursday,3,4,26,1921715.85,4.93
+BR,Brazil,Thursday,3,5,9,564641.78,5.68
+BR,Brazil,Thursday,3,6,6,386979.0,4.64
+BR,Brazil,Thursday,3,7,42,5552165.93,3.95
+BR,Brazil,Thursday,3,8,59,3639214.54,3.87
+BR,Brazil,Thursday,3,9,64,4277840.2,6.42
+BR,Brazil,Thursday,3,10,75,1109644.12,4.53
+BR,Brazil,Thursday,3,11,115,770060.04,8.97
+BR,Brazil,Thursday,3,12,44,1874437.91,7.0
+BR,Brazil,Thursday,3,13,205,913081.42,4.68
+BR,Brazil,Thursday,3,14,305,1373456.56,4.82
+BR,Brazil,Thursday,3,15,368,1735941.14,5.48
+BR,Brazil,Thursday,3,16,103,543252.48,4.87
+BR,Brazil,Thursday,3,17,104,1511355.42,4.27
+BR,Brazil,Thursday,3,18,70,582885.47,6.44
+BR,Brazil,Thursday,3,19,109,595314.75,5.27
+BR,Brazil,Thursday,3,20,160,511014.79,4.02
+BR,Brazil,Thursday,3,21,277,1757633.52,4.25
+BR,Brazil,Thursday,3,22,248,2060690.35,4.11
+BR,Brazil,Thursday,3,23,154,607005.58,6.48
+BR,Brazil,Friday,4,0,53,363094.79,5.37
+BR,Brazil,Friday,4,1,65,476953.11,5.71
+BR,Brazil,Friday,4,2,34,3629306.79,4.21
+BR,Brazil,Friday,4,3,36,997304.33,6.53
+BR,Brazil,Friday,4,4,30,1858395.33,5.86
+BR,Brazil,Friday,4,5,10,1973998.1,5.44
+BR,Brazil,Friday,4,6,8,820161.62,6.82
+BR,Brazil,Friday,4,7,22,11924219.64,4.04
+BR,Brazil,Friday,4,8,38,11462245.95,2.24
+BR,Brazil,Friday,4,9,84,627993.5,6.08
+BR,Brazil,Friday,4,10,22,1561427.23,5.99
+BR,Brazil,Friday,4,11,72,1102415.04,8.58
+BR,Brazil,Friday,4,12,47,965454.09,8.28
+BR,Brazil,Friday,4,13,151,1977669.07,5.18
+BR,Brazil,Friday,4,14,240,667004.15,5.36
+BR,Brazil,Friday,4,15,379,1984537.83,5.04
+BR,Brazil,Friday,4,16,108,950516.66,4.51
+BR,Brazil,Friday,4,17,98,869304.46,5.34
+BR,Brazil,Friday,4,18,68,669762.26,6.34
+BR,Brazil,Friday,4,19,81,1171691.17,5.67
+BR,Brazil,Friday,4,20,155,379003.85,3.77
+BR,Brazil,Friday,4,21,293,884569.34,4.46
+BR,Brazil,Friday,4,22,190,666281.94,4.02
+BR,Brazil,Friday,4,23,106,300209.53,7.21
+BR,Brazil,Saturday,5,0,60,1000412.97,6.9
+BR,Brazil,Saturday,5,1,36,970326.22,6.83
+BR,Brazil,Saturday,5,2,31,749184.45,5.46
+BR,Brazil,Saturday,5,3,19,453868.42,6.66
+BR,Brazil,Saturday,5,4,14,810218.57,6.48
+BR,Brazil,Saturday,5,5,10,793540.0,5.29
+BR,Brazil,Saturday,5,6,11,1334958.91,3.65
+BR,Brazil,Saturday,5,7,16,4595937.44,4.22
+BR,Brazil,Saturday,5,8,37,4834656.59,4.15
+BR,Brazil,Saturday,5,9,28,1855639.11,6.48
+BR,Brazil,Saturday,5,10,21,2456254.43,6.65
+BR,Brazil,Saturday,5,11,50,1327041.32,8.15
+BR,Brazil,Saturday,5,12,42,2372251.12,7.91
+BR,Brazil,Saturday,5,13,121,4061237.85,5.14
+BR,Brazil,Saturday,5,14,178,621423.24,4.75
+BR,Brazil,Saturday,5,15,331,2009700.58,4.68
+BR,Brazil,Saturday,5,16,72,4719484.0,4.59
+BR,Brazil,Saturday,5,17,53,1781160.34,4.18
+BR,Brazil,Saturday,5,18,39,623063.64,6.07
+BR,Brazil,Saturday,5,19,91,750744.45,5.1
+BR,Brazil,Saturday,5,20,128,890963.23,3.39
+BR,Brazil,Saturday,5,21,193,1294787.57,3.75
+BR,Brazil,Saturday,5,22,159,734639.91,3.66
+BR,Brazil,Saturday,5,23,72,975671.58,5.33
+BR,Brazil,Sunday,6,0,35,1791934.94,5.49
+BR,Brazil,Sunday,6,1,37,447031.54,6.82
+BR,Brazil,Sunday,6,2,25,340276.52,3.68
+BR,Brazil,Sunday,6,3,11,868564.91,5.17
+BR,Brazil,Sunday,6,4,17,1896632.29,6.97
+BR,Brazil,Sunday,6,5,16,1377291.25,5.87
+BR,Brazil,Sunday,6,6,4,5276450.25,7.42
+BR,Brazil,Sunday,6,7,19,390505.32,5.67
+BR,Brazil,Sunday,6,8,36,3719859.89,3.77
+BR,Brazil,Sunday,6,9,27,2823294.37,7.2
+BR,Brazil,Sunday,6,10,38,2023506.71,4.94
+BR,Brazil,Sunday,6,11,35,1390783.71,6.62
+BR,Brazil,Sunday,6,12,41,1106407.61,9.3
+BR,Brazil,Sunday,6,13,98,1020835.13,4.95
+BR,Brazil,Sunday,6,14,262,583506.66,6.96
+BR,Brazil,Sunday,6,15,248,1526962.35,5.66
+BR,Brazil,Sunday,6,16,58,1803917.9,4.37
+BR,Brazil,Sunday,6,17,55,2326528.09,4.33
+BR,Brazil,Sunday,6,18,41,907073.12,6.39
+BR,Brazil,Sunday,6,19,54,573063.02,5.62
+BR,Brazil,Sunday,6,20,93,410516.17,3.66
+BR,Brazil,Sunday,6,21,175,1151282.62,3.91
+BR,Brazil,Sunday,6,22,93,589766.57,5.06
+BR,Brazil,Sunday,6,23,31,782740.9,5.53
+CA,Canada,Monday,0,0,52,2844920.08,3.71
+CA,Canada,Monday,0,1,49,1109867.45,4.51
+CA,Canada,Monday,0,2,44,562236.45,3.7
+CA,Canada,Monday,0,3,32,1675753.47,4.32
+CA,Canada,Monday,0,4,25,4556428.8,2.56
+CA,Canada,Monday,0,5,30,3326998.47,3.59
+CA,Canada,Monday,0,6,20,1222234.8,3.09
+CA,Canada,Monday,0,7,43,1305012.0,3.09
+CA,Canada,Monday,0,8,43,10224534.63,2.16
+CA,Canada,Monday,0,9,81,17876636.98,4.45
+CA,Canada,Monday,0,10,68,1393217.87,4.98
+CA,Canada,Monday,0,11,76,1223296.25,4.79
+CA,Canada,Monday,0,12,71,3500337.23,3.21
+CA,Canada,Monday,0,13,91,1395612.67,5.4
+CA,Canada,Monday,0,14,131,1063690.79,2.91
+CA,Canada,Monday,0,15,121,1901948.38,5.41
+CA,Canada,Monday,0,16,207,1112904.72,3.19
+CA,Canada,Monday,0,17,153,997281.54,3.91
+CA,Canada,Monday,0,18,151,1322323.54,3.74
+CA,Canada,Monday,0,19,111,979473.86,3.5
+CA,Canada,Monday,0,20,162,767679.63,3.35
+CA,Canada,Monday,0,21,83,1531680.22,4.3
+CA,Canada,Monday,0,22,106,1061148.21,4.34
+CA,Canada,Monday,0,23,111,1520573.61,3.78
+CA,Canada,Tuesday,1,0,62,1388021.21,3.36
+CA,Canada,Tuesday,1,1,63,1118496.59,4.96
+CA,Canada,Tuesday,1,2,55,984215.58,4.22
+CA,Canada,Tuesday,1,3,38,1997139.74,3.92
+CA,Canada,Tuesday,1,4,64,4487173.31,6.02
+CA,Canada,Tuesday,1,5,54,2050638.44,4.09
+CA,Canada,Tuesday,1,6,22,1153186.95,2.32
+CA,Canada,Tuesday,1,7,32,2268655.59,2.74
+CA,Canada,Tuesday,1,8,70,1657277.21,1.68
+CA,Canada,Tuesday,1,9,88,6523782.93,6.01
+CA,Canada,Tuesday,1,10,123,769514.31,4.23
+CA,Canada,Tuesday,1,11,94,896445.66,3.95
+CA,Canada,Tuesday,1,12,147,17502908.59,6.88
+CA,Canada,Tuesday,1,13,79,1330888.44,3.65
+CA,Canada,Tuesday,1,14,155,940278.35,3.11
+CA,Canada,Tuesday,1,15,169,1174820.42,4.49
+CA,Canada,Tuesday,1,16,245,1560171.87,3.47
+CA,Canada,Tuesday,1,17,166,850037.3,3.71
+CA,Canada,Tuesday,1,18,229,733332.98,2.84
+CA,Canada,Tuesday,1,19,132,1681863.76,3.41
+CA,Canada,Tuesday,1,20,197,894528.0,3.01
+CA,Canada,Tuesday,1,21,106,757358.08,4.37
+CA,Canada,Tuesday,1,22,140,1270294.71,3.2
+CA,Canada,Tuesday,1,23,150,6671238.49,2.99
+CA,Canada,Wednesday,2,0,86,1687363.9,3.07
+CA,Canada,Wednesday,2,1,65,2201268.03,3.85
+CA,Canada,Wednesday,2,2,67,3387048.91,3.55
+CA,Canada,Wednesday,2,3,30,2415808.23,4.92
+CA,Canada,Wednesday,2,4,69,13518551.14,2.26
+CA,Canada,Wednesday,2,5,58,777212.26,2.95
+CA,Canada,Wednesday,2,6,32,2132231.09,2.87
+CA,Canada,Wednesday,2,7,57,5754739.02,3.15
+CA,Canada,Wednesday,2,8,76,1130796.03,2.07
+CA,Canada,Wednesday,2,9,60,6858894.6,4.04
+CA,Canada,Wednesday,2,10,84,2344638.79,4.06
+CA,Canada,Wednesday,2,11,94,4950649.97,4.64
+CA,Canada,Wednesday,2,12,124,1323507.55,3.97
+CA,Canada,Wednesday,2,13,154,1106210.53,4.82
+CA,Canada,Wednesday,2,14,175,1834796.42,3.4
+CA,Canada,Wednesday,2,15,244,1103064.42,3.97
+CA,Canada,Wednesday,2,16,245,1150397.38,3.31
+CA,Canada,Wednesday,2,17,186,1186087.33,3.88
+CA,Canada,Wednesday,2,18,218,794454.22,4.13
+CA,Canada,Wednesday,2,19,193,1032927.24,3.83
+CA,Canada,Wednesday,2,20,202,422820.41,3.04
+CA,Canada,Wednesday,2,21,105,1248385.8,4.09
+CA,Canada,Wednesday,2,22,113,888478.81,3.78
+CA,Canada,Wednesday,2,23,151,1391263.23,3.48
+CA,Canada,Thursday,3,0,108,1807085.74,3.08
+CA,Canada,Thursday,3,1,71,1154108.73,4.16
+CA,Canada,Thursday,3,2,55,575853.47,4.2
+CA,Canada,Thursday,3,3,45,5337741.36,5.62
+CA,Canada,Thursday,3,4,70,7951830.81,2.8
+CA,Canada,Thursday,3,5,47,973983.74,2.37
+CA,Canada,Thursday,3,6,37,1055926.95,2.17
+CA,Canada,Thursday,3,7,53,4798107.11,2.73
+CA,Canada,Thursday,3,8,84,3017420.0,2.62
+CA,Canada,Thursday,3,9,101,4160235.37,4.25
+CA,Canada,Thursday,3,10,87,1979342.76,4.44
+CA,Canada,Thursday,3,11,81,1272430.63,5.4
+CA,Canada,Thursday,3,12,73,1877817.36,3.61
+CA,Canada,Thursday,3,13,100,2384605.29,3.77
+CA,Canada,Thursday,3,14,141,827681.41,3.08
+CA,Canada,Thursday,3,15,163,2191706.38,3.03
+CA,Canada,Thursday,3,16,262,2627882.0,3.17
+CA,Canada,Thursday,3,17,235,2226414.51,3.13
+CA,Canada,Thursday,3,18,207,1119287.88,3.15
+CA,Canada,Thursday,3,19,137,4006887.42,2.96
+CA,Canada,Thursday,3,20,168,709307.86,3.08
+CA,Canada,Thursday,3,21,103,842840.42,4.56
+CA,Canada,Thursday,3,22,109,1122500.28,3.17
+CA,Canada,Thursday,3,23,117,1461562.25,3.14
+CA,Canada,Friday,4,0,75,1488750.28,2.92
+CA,Canada,Friday,4,1,64,1329301.72,4.29
+CA,Canada,Friday,4,2,47,676917.49,3.83
+CA,Canada,Friday,4,3,26,1509979.04,4.23
+CA,Canada,Friday,4,4,112,10665603.62,2.53
+CA,Canada,Friday,4,5,71,1782478.34,2.4
+CA,Canada,Friday,4,6,35,2701204.66,3.85
+CA,Canada,Friday,4,7,51,6364216.65,3.43
+CA,Canada,Friday,4,8,59,8000054.08,2.48
+CA,Canada,Friday,4,9,55,1751705.89,4.42
+CA,Canada,Friday,4,10,94,1900032.33,3.13
+CA,Canada,Friday,4,11,105,1348166.92,4.86
+CA,Canada,Friday,4,12,91,1325114.07,3.2
+CA,Canada,Friday,4,13,110,1569563.41,3.14
+CA,Canada,Friday,4,14,140,1142925.33,3.26
+CA,Canada,Friday,4,15,160,1694472.99,3.94
+CA,Canada,Friday,4,16,220,941662.45,3.2
+CA,Canada,Friday,4,17,179,1144701.64,3.68
+CA,Canada,Friday,4,18,204,943787.54,3.38
+CA,Canada,Friday,4,19,112,1925365.87,2.92
+CA,Canada,Friday,4,20,143,577593.97,2.99
+CA,Canada,Friday,4,21,106,1030388.42,3.56
+CA,Canada,Friday,4,22,114,968544.88,3.65
+CA,Canada,Friday,4,23,111,1297694.69,3.33
+CA,Canada,Saturday,5,0,58,2878998.67,3.23
+CA,Canada,Saturday,5,1,54,1814423.19,5.13
+CA,Canada,Saturday,5,2,49,1211014.51,3.57
+CA,Canada,Saturday,5,3,24,14135234.46,5.62
+CA,Canada,Saturday,5,4,36,5895816.83,2.87
+CA,Canada,Saturday,5,5,39,506756.9,2.28
+CA,Canada,Saturday,5,6,31,2607798.68,2.6
+CA,Canada,Saturday,5,7,36,2581807.25,3.47
+CA,Canada,Saturday,5,8,59,3937781.49,3.62
+CA,Canada,Saturday,5,9,58,1697180.97,3.83
+CA,Canada,Saturday,5,10,57,2073746.58,4.62
+CA,Canada,Saturday,5,11,56,1266583.05,3.09
+CA,Canada,Saturday,5,12,65,2259714.02,4.07
+CA,Canada,Saturday,5,13,64,4001603.34,3.88
+CA,Canada,Saturday,5,14,105,1834290.79,2.55
+CA,Canada,Saturday,5,15,124,3260403.78,3.77
+CA,Canada,Saturday,5,16,171,2547551.08,3.06
+CA,Canada,Saturday,5,17,118,1506152.47,3.57
+CA,Canada,Saturday,5,18,128,1120216.36,3.37
+CA,Canada,Saturday,5,19,93,1113167.95,3.21
+CA,Canada,Saturday,5,20,182,2373852.45,1.98
+CA,Canada,Saturday,5,21,69,2135848.99,3.03
+CA,Canada,Saturday,5,22,83,1896598.53,2.55
+CA,Canada,Saturday,5,23,87,1600560.14,3.15
+CA,Canada,Sunday,6,0,38,2873986.08,2.69
+CA,Canada,Sunday,6,1,48,1383294.17,4.3
+CA,Canada,Sunday,6,2,46,1195092.39,3.49
+CA,Canada,Sunday,6,3,44,6569504.23,4.37
+CA,Canada,Sunday,6,4,30,1590563.9,5.38
+CA,Canada,Sunday,6,5,36,1809339.56,2.23
+CA,Canada,Sunday,6,6,20,2368337.05,3.5
+CA,Canada,Sunday,6,7,25,434252.28,5.27
+CA,Canada,Sunday,6,8,42,1854331.93,3.55
+CA,Canada,Sunday,6,9,48,3388957.06,4.85
+CA,Canada,Sunday,6,10,41,1296480.76,4.99
+CA,Canada,Sunday,6,11,56,1909565.34,4.07
+CA,Canada,Sunday,6,12,53,1076044.55,4.62
+CA,Canada,Sunday,6,13,73,1669736.71,5.99
+CA,Canada,Sunday,6,14,84,1106370.55,3.56
+CA,Canada,Sunday,6,15,78,806383.59,5.78
+CA,Canada,Sunday,6,16,133,1476325.71,3.38
+CA,Canada,Sunday,6,17,117,1328055.19,3.3
+CA,Canada,Sunday,6,18,135,1298448.76,3.66
+CA,Canada,Sunday,6,19,66,1946483.82,3.27
+CA,Canada,Sunday,6,20,132,882957.87,2.62
+CA,Canada,Sunday,6,21,57,1793349.42,3.84
+CA,Canada,Sunday,6,22,98,1437656.51,3.28
+CA,Canada,Sunday,6,23,87,1675307.99,3.49
+DE,Germany,Monday,0,0,9,1651169.44,7.13
+DE,Germany,Monday,0,1,7,2543386.86,3.32
+DE,Germany,Monday,0,2,3,364505.33,6.26
+DE,Germany,Monday,0,3,6,868010.17,5.76
+DE,Germany,Monday,0,4,4,1240326.0,8.49
+DE,Germany,Monday,0,5,21,788469.38,5.69
+DE,Germany,Monday,0,6,19,727646.84,4.05
+DE,Germany,Monday,0,7,37,5472108.05,3.69
+DE,Germany,Monday,0,8,75,2156251.92,3.27
+DE,Germany,Monday,0,9,94,1926624.09,4.64
+DE,Germany,Monday,0,10,151,607162.85,4.34
+DE,Germany,Monday,0,11,183,445384.72,4.26
+DE,Germany,Monday,0,12,215,537907.15,3.18
+DE,Germany,Monday,0,13,221,654080.29,3.47
+DE,Germany,Monday,0,14,266,632167.93,3.11
+DE,Germany,Monday,0,15,235,763547.35,4.3
+DE,Germany,Monday,0,16,258,926179.87,3.16
+DE,Germany,Monday,0,17,193,546451.76,3.27
+DE,Germany,Monday,0,18,102,1104018.31,3.38
+DE,Germany,Monday,0,19,63,491827.4,3.77
+DE,Germany,Monday,0,20,76,355495.93,1.98
+DE,Germany,Monday,0,21,26,1091177.77,4.21
+DE,Germany,Monday,0,22,29,739242.83,2.62
+DE,Germany,Monday,0,23,14,1865463.71,4.4
+DE,Germany,Tuesday,1,0,13,2842452.38,2.88
+DE,Germany,Tuesday,1,1,10,2003204.8,5.83
+DE,Germany,Tuesday,1,2,18,1292265.44,6.87
+DE,Germany,Tuesday,1,3,9,982816.67,8.48
+DE,Germany,Tuesday,1,4,28,1037849.61,10.04
+DE,Germany,Tuesday,1,5,34,1572146.24,4.88
+DE,Germany,Tuesday,1,6,22,641543.45,3.16
+DE,Germany,Tuesday,1,7,42,1919609.05,4.14
+DE,Germany,Tuesday,1,8,62,1721883.55,3.59
+DE,Germany,Tuesday,1,9,105,1327292.03,6.25
+DE,Germany,Tuesday,1,10,140,801796.79,5.54
+DE,Germany,Tuesday,1,11,208,531867.65,4.06
+DE,Germany,Tuesday,1,12,276,1170859.24,5.37
+DE,Germany,Tuesday,1,13,229,435945.24,4.06
+DE,Germany,Tuesday,1,14,262,632302.24,3.28
+DE,Germany,Tuesday,1,15,247,736775.35,3.86
+DE,Germany,Tuesday,1,16,272,679123.94,3.2
+DE,Germany,Tuesday,1,17,215,416446.93,3.46
+DE,Germany,Tuesday,1,18,113,399982.18,2.9
+DE,Germany,Tuesday,1,19,96,1432228.71,2.96
+DE,Germany,Tuesday,1,20,88,836252.11,2.6
+DE,Germany,Tuesday,1,21,36,480791.03,3.15
+DE,Germany,Tuesday,1,22,31,723329.16,3.46
+DE,Germany,Tuesday,1,23,20,1498637.85,3.94
+DE,Germany,Wednesday,2,0,13,1450192.0,3.26
+DE,Germany,Wednesday,2,1,13,6150142.23,3.44
+DE,Germany,Wednesday,2,2,10,3046437.4,4.62
+DE,Germany,Wednesday,2,3,9,5142988.78,5.81
+DE,Germany,Wednesday,2,4,7,1174292.71,6.9
+DE,Germany,Wednesday,2,5,26,1155774.58,2.42
+DE,Germany,Wednesday,2,6,33,1971147.45,3.06
+DE,Germany,Wednesday,2,7,44,4788777.64,4.49
+DE,Germany,Wednesday,2,8,76,923930.49,3.9
+DE,Germany,Wednesday,2,9,94,1743710.88,5.19
+DE,Germany,Wednesday,2,10,150,1376210.85,4.44
+DE,Germany,Wednesday,2,11,229,2052473.86,4.5
+DE,Germany,Wednesday,2,12,203,549554.78,4.1
+DE,Germany,Wednesday,2,13,248,712773.44,4.55
+DE,Germany,Wednesday,2,14,265,1092838.03,3.7
+DE,Germany,Wednesday,2,15,264,544831.3,4.0
+DE,Germany,Wednesday,2,16,267,621339.35,3.2
+DE,Germany,Wednesday,2,17,225,729114.92,3.33
+DE,Germany,Wednesday,2,18,133,922737.56,3.99
+DE,Germany,Wednesday,2,19,75,1047115.89,4.24
+DE,Germany,Wednesday,2,20,87,480480.16,2.36
+DE,Germany,Wednesday,2,21,51,1372232.45,2.65
+DE,Germany,Wednesday,2,22,23,1751354.0,4.1
+DE,Germany,Wednesday,2,23,15,1709849.6,3.33
+DE,Germany,Thursday,3,0,23,2948171.52,3.88
+DE,Germany,Thursday,3,1,14,3983419.14,5.48
+DE,Germany,Thursday,3,2,7,372311.29,8.17
+DE,Germany,Thursday,3,3,14,6979438.79,6.45
+DE,Germany,Thursday,3,4,13,272619.23,6.27
+DE,Germany,Thursday,3,5,24,216961.62,3.71
+DE,Germany,Thursday,3,6,27,610381.48,4.82
+DE,Germany,Thursday,3,7,50,4808338.16,3.66
+DE,Germany,Thursday,3,8,108,2668289.26,3.65
+DE,Germany,Thursday,3,9,95,3022887.12,5.75
+DE,Germany,Thursday,3,10,157,912062.97,4.68
+DE,Germany,Thursday,3,11,210,521811.98,4.73
+DE,Germany,Thursday,3,12,208,1091567.76,4.6
+DE,Germany,Thursday,3,13,211,626021.54,4.09
+DE,Germany,Thursday,3,14,259,759276.14,2.99
+DE,Germany,Thursday,3,15,224,535819.07,3.34
+DE,Germany,Thursday,3,16,262,1011235.87,3.15
+DE,Germany,Thursday,3,17,182,970579.81,2.95
+DE,Germany,Thursday,3,18,107,941646.52,3.66
+DE,Germany,Thursday,3,19,79,916343.11,3.02
+DE,Germany,Thursday,3,20,73,436663.25,2.19
+DE,Germany,Thursday,3,21,34,1246405.53,3.27
+DE,Germany,Thursday,3,22,62,1866877.53,2.77
+DE,Germany,Thursday,3,23,30,2501267.1,2.4
+DE,Germany,Friday,4,0,20,1556207.5,4.87
+DE,Germany,Friday,4,1,17,2351807.0,5.85
+DE,Germany,Friday,4,2,13,1034707.92,6.34
+DE,Germany,Friday,4,3,10,2434643.2,5.24
+DE,Germany,Friday,4,4,20,3471977.9,5.03
+DE,Germany,Friday,4,5,42,901656.67,4.44
+DE,Germany,Friday,4,6,19,891538.95,4.19
+DE,Germany,Friday,4,7,49,6230717.12,3.99
+DE,Germany,Friday,4,8,78,5879821.26,2.71
+DE,Germany,Friday,4,9,72,1221414.22,4.76
+DE,Germany,Friday,4,10,135,895742.64,3.93
+DE,Germany,Friday,4,11,202,777725.71,3.76
+DE,Germany,Friday,4,12,174,1779810.68,2.86
+DE,Germany,Friday,4,13,213,1112009.7,3.56
+DE,Germany,Friday,4,14,247,865093.86,3.43
+DE,Germany,Friday,4,15,213,620534.58,3.66
+DE,Germany,Friday,4,16,255,507939.78,2.92
+DE,Germany,Friday,4,17,167,454832.1,3.36
+DE,Germany,Friday,4,18,101,1212755.62,3.36
+DE,Germany,Friday,4,19,77,1199209.58,3.31
+DE,Germany,Friday,4,20,69,175744.71,1.89
+DE,Germany,Friday,4,21,35,2640280.66,2.82
+DE,Germany,Friday,4,22,39,724867.33,3.03
+DE,Germany,Friday,4,23,16,1030012.62,3.03
+DE,Germany,Saturday,5,0,22,3067163.55,3.41
+DE,Germany,Saturday,5,1,12,4270979.67,5.23
+DE,Germany,Saturday,5,2,9,2869111.22,4.11
+DE,Germany,Saturday,5,3,10,1140476.1,8.76
+DE,Germany,Saturday,5,4,12,1221441.92,7.77
+DE,Germany,Saturday,5,5,33,1880038.85,3.3
+DE,Germany,Saturday,5,6,44,1178480.64,3.21
+DE,Germany,Saturday,5,7,147,751535.25,3.62
+DE,Germany,Saturday,5,8,217,1146835.01,3.69
+DE,Germany,Saturday,5,9,193,480917.17,3.92
+DE,Germany,Saturday,5,10,122,814933.37,4.6
+DE,Germany,Saturday,5,11,100,1884691.88,4.64
+DE,Germany,Saturday,5,12,99,1545846.66,3.99
+DE,Germany,Saturday,5,13,101,2485217.25,3.5
+DE,Germany,Saturday,5,14,163,664013.02,3.34
+DE,Germany,Saturday,5,15,200,2037392.96,4.19
+DE,Germany,Saturday,5,16,220,1525905.99,3.39
+DE,Germany,Saturday,5,17,127,994119.85,3.42
+DE,Germany,Saturday,5,18,83,576003.86,3.2
+DE,Germany,Saturday,5,19,38,554347.08,3.69
+DE,Germany,Saturday,5,20,67,1391421.67,1.81
+DE,Germany,Saturday,5,21,35,749771.37,2.71
+DE,Germany,Saturday,5,22,21,465723.14,2.86
+DE,Germany,Saturday,5,23,11,1601133.09,3.29
+DE,Germany,Sunday,6,0,6,5398716.67,4.02
+DE,Germany,Sunday,6,1,16,2112289.88,7.21
+DE,Germany,Sunday,6,2,8,4381811.62,2.86
+DE,Germany,Sunday,6,3,12,2217966.0,8.83
+DE,Germany,Sunday,6,4,20,2009056.45,8.34
+DE,Germany,Sunday,6,5,22,1787404.86,3.61
+DE,Germany,Sunday,6,6,26,1754835.12,4.86
+DE,Germany,Sunday,6,7,114,406742.73,3.63
+DE,Germany,Sunday,6,8,184,677277.14,3.45
+DE,Germany,Sunday,6,9,192,1050352.27,4.4
+DE,Germany,Sunday,6,10,146,600302.45,4.37
+DE,Germany,Sunday,6,11,85,853915.06,4.42
+DE,Germany,Sunday,6,12,82,927745.28,4.17
+DE,Germany,Sunday,6,13,107,623079.35,4.22
+DE,Germany,Sunday,6,14,159,702341.59,3.94
+DE,Germany,Sunday,6,15,174,613671.03,4.77
+DE,Germany,Sunday,6,16,145,937223.14,3.47
+DE,Germany,Sunday,6,17,168,381733.93,2.69
+DE,Germany,Sunday,6,18,76,743898.42,3.39
+DE,Germany,Sunday,6,19,52,1248807.44,3.31
+DE,Germany,Sunday,6,20,63,271923.08,1.99
+DE,Germany,Sunday,6,21,23,2479038.78,2.56
+DE,Germany,Sunday,6,22,25,1411928.96,3.54
+DE,Germany,Sunday,6,23,10,2064327.3,2.24
+FR,France,Monday,0,0,11,673839.18,5.07
+FR,France,Monday,0,1,10,2894133.6,3.71
+FR,France,Monday,0,2,5,1521399.6,5.43
+FR,France,Monday,0,3,9,358432.11,6.29
+FR,France,Monday,0,4,36,482890.47,7.52
+FR,France,Monday,0,5,17,269447.29,6.91
+FR,France,Monday,0,6,21,817827.0,5.16
+FR,France,Monday,0,7,39,1386763.41,4.17
+FR,France,Monday,0,8,69,6697190.13,3.75
+FR,France,Monday,0,9,67,2152099.79,5.74
+FR,France,Monday,0,10,85,552296.45,6.06
+FR,France,Monday,0,11,83,838267.78,4.77
+FR,France,Monday,0,12,79,2050559.09,4.05
+FR,France,Monday,0,13,94,468654.89,3.0
+FR,France,Monday,0,14,126,872732.28,2.76
+FR,France,Monday,0,15,268,848277.68,3.62
+FR,France,Monday,0,16,413,658104.98,3.11
+FR,France,Monday,0,17,268,349952.93,3.99
+FR,France,Monday,0,18,108,1183755.26,3.61
+FR,France,Monday,0,19,94,614823.51,2.86
+FR,France,Monday,0,20,94,476044.21,2.03
+FR,France,Monday,0,21,52,828292.15,2.79
+FR,France,Monday,0,22,31,276033.84,1.93
+FR,France,Monday,0,23,20,1184613.05,2.98
+FR,France,Tuesday,1,0,9,507084.11,4.16
+FR,France,Tuesday,1,1,13,1377595.46,4.26
+FR,France,Tuesday,1,2,13,1170683.54,7.28
+FR,France,Tuesday,1,3,14,694070.93,8.06
+FR,France,Tuesday,1,4,74,708414.43,8.25
+FR,France,Tuesday,1,5,24,1884805.0,7.46
+FR,France,Tuesday,1,6,21,706731.0,4.55
+FR,France,Tuesday,1,7,46,1554603.15,4.64
+FR,France,Tuesday,1,8,59,1896230.75,3.28
+FR,France,Tuesday,1,9,93,1887053.3,6.93
+FR,France,Tuesday,1,10,123,565022.13,5.78
+FR,France,Tuesday,1,11,83,566632.35,5.18
+FR,France,Tuesday,1,12,153,16447165.91,6.94
+FR,France,Tuesday,1,13,105,244262.61,3.09
+FR,France,Tuesday,1,14,143,854607.85,2.95
+FR,France,Tuesday,1,15,262,589089.95,3.48
+FR,France,Tuesday,1,16,455,533178.3,2.96
+FR,France,Tuesday,1,17,346,329643.8,3.66
+FR,France,Tuesday,1,18,129,554854.74,3.46
+FR,France,Tuesday,1,19,94,1188878.7,3.33
+FR,France,Tuesday,1,20,109,379497.88,2.66
+FR,France,Tuesday,1,21,56,894074.2,2.49
+FR,France,Tuesday,1,22,43,331509.3,2.07
+FR,France,Tuesday,1,23,31,24105253.74,2.09
+FR,France,Wednesday,2,0,42,683769.62,2.6
+FR,France,Wednesday,2,1,20,5970032.2,2.69
+FR,France,Wednesday,2,2,17,1267989.76,3.7
+FR,France,Wednesday,2,3,22,2570747.73,7.77
+FR,France,Wednesday,2,4,49,747410.61,6.98
+FR,France,Wednesday,2,5,28,842406.64,3.75
+FR,France,Wednesday,2,6,25,3629167.56,4.24
+FR,France,Wednesday,2,7,69,3059268.25,4.34
+FR,France,Wednesday,2,8,92,881226.5,3.82
+FR,France,Wednesday,2,9,81,2883202.72,5.76
+FR,France,Wednesday,2,10,139,1334823.94,4.72
+FR,France,Wednesday,2,11,163,2826141.6,5.63
+FR,France,Wednesday,2,12,212,1281445.89,4.97
+FR,France,Wednesday,2,13,239,657482.71,5.16
+FR,France,Wednesday,2,14,179,662388.72,3.58
+FR,France,Wednesday,2,15,251,977511.67,3.58
+FR,France,Wednesday,2,16,411,710221.93,2.98
+FR,France,Wednesday,2,17,293,566001.8,3.55
+FR,France,Wednesday,2,18,146,1522865.53,3.59
+FR,France,Wednesday,2,19,125,1091882.43,3.27
+FR,France,Wednesday,2,20,113,541122.59,2.34
+FR,France,Wednesday,2,21,69,1509239.65,2.54
+FR,France,Wednesday,2,22,36,646963.94,3.35
+FR,France,Wednesday,2,23,27,1940041.15,3.54
+FR,France,Thursday,3,0,23,2740935.3,2.73
+FR,France,Thursday,3,1,15,1060810.47,3.6
+FR,France,Thursday,3,2,13,367272.62,5.54
+FR,France,Thursday,3,3,8,11789334.5,9.41
+FR,France,Thursday,3,4,47,380106.83,7.15
+FR,France,Thursday,3,5,25,151557.64,5.22
+FR,France,Thursday,3,6,21,568756.1,6.63
+FR,France,Thursday,3,7,60,3999322.0,3.92
+FR,France,Thursday,3,8,85,3222818.81,4.31
+FR,France,Thursday,3,9,74,4167520.34,6.61
+FR,France,Thursday,3,10,122,1331622.86,5.06
+FR,France,Thursday,3,11,100,1428198.26,4.51
+FR,France,Thursday,3,12,104,1787651.68,4.3
+FR,France,Thursday,3,13,117,1538789.03,3.01
+FR,France,Thursday,3,14,146,573742.92,2.76
+FR,France,Thursday,3,15,237,1150215.84,2.68
+FR,France,Thursday,3,16,422,1292562.88,3.17
+FR,France,Thursday,3,17,276,1240743.76,3.05
+FR,France,Thursday,3,18,133,1185237.22,3.28
+FR,France,Thursday,3,19,105,3901699.45,2.74
+FR,France,Thursday,3,20,86,355378.92,1.75
+FR,France,Thursday,3,21,60,301335.02,2.24
+FR,France,Thursday,3,22,51,1146609.86,2.23
+FR,France,Thursday,3,23,78,713658.24,2.38
+FR,France,Friday,4,0,39,859587.85,3.03
+FR,France,Friday,4,1,25,1411819.88,4.46
+FR,France,Friday,4,2,13,787435.92,6.22
+FR,France,Friday,4,3,20,887679.25,5.63
+FR,France,Friday,4,4,88,1075000.5,4.79
+FR,France,Friday,4,5,32,2236214.06,5.13
+FR,France,Friday,4,6,28,3209111.5,6.01
+FR,France,Friday,4,7,54,5680501.78,4.29
+FR,France,Friday,4,8,65,7197899.15,2.87
+FR,France,Friday,4,9,61,1534410.16,5.22
+FR,France,Friday,4,10,107,1230725.74,4.69
+FR,France,Friday,4,11,99,1023978.86,4.86
+FR,France,Friday,4,12,109,945497.56,4.56
+FR,France,Friday,4,13,133,1685124.09,3.96
+FR,France,Friday,4,14,144,932031.59,3.52
+FR,France,Friday,4,15,243,1296383.35,3.16
+FR,France,Friday,4,16,395,509231.89,2.87
+FR,France,Friday,4,17,269,486393.51,3.36
+FR,France,Friday,4,18,116,724917.26,2.88
+FR,France,Friday,4,19,91,782232.8,2.78
+FR,France,Friday,4,20,82,193251.2,1.95
+FR,France,Friday,4,21,47,1483546.89,2.1
+FR,France,Friday,4,22,26,1094581.38,2.26
+FR,France,Friday,4,23,21,680093.05,2.61
+FR,France,Saturday,5,0,11,6000014.09,2.13
+FR,France,Saturday,5,1,15,4085198.07,5.0
+FR,France,Saturday,5,2,7,3527833.0,4.97
+FR,France,Saturday,5,3,5,886903.0,16.12
+FR,France,Saturday,5,4,49,646443.1,8.14
+FR,France,Saturday,5,5,16,3173678.5,5.28
+FR,France,Saturday,5,6,30,1785141.4,3.8
+FR,France,Saturday,5,7,57,1604082.58,4.36
+FR,France,Saturday,5,8,81,3020785.53,4.42
+FR,France,Saturday,5,9,76,1796066.8,4.81
+FR,France,Saturday,5,10,117,896389.26,5.47
+FR,France,Saturday,5,11,117,1032823.91,4.43
+FR,France,Saturday,5,12,152,908199.74,4.41
+FR,France,Saturday,5,13,135,1701820.72,3.09
+FR,France,Saturday,5,14,107,1003944.05,2.77
+FR,France,Saturday,5,15,224,2196260.46,3.73
+FR,France,Saturday,5,16,297,1169873.4,3.03
+FR,France,Saturday,5,17,214,553395.67,3.33
+FR,France,Saturday,5,18,96,1055726.54,3.43
+FR,France,Saturday,5,19,70,477407.1,2.7
+FR,France,Saturday,5,20,86,1274850.74,2.12
+FR,France,Saturday,5,21,46,707846.74,2.62
+FR,France,Saturday,5,22,42,497824.62,2.12
+FR,France,Saturday,5,23,38,829936.82,2.77
+FR,France,Sunday,6,0,11,3707959.55,1.41
+FR,France,Sunday,6,1,11,1640860.73,9.85
+FR,France,Sunday,6,2,8,4365773.25,2.73
+FR,France,Sunday,6,3,18,2639334.78,7.21
+FR,France,Sunday,6,4,46,772225.65,8.35
+FR,France,Sunday,6,5,17,774110.35,4.66
+FR,France,Sunday,6,6,20,1629357.7,4.38
+FR,France,Sunday,6,7,91,614520.26,3.72
+FR,France,Sunday,6,8,101,915750.46,3.94
+FR,France,Sunday,6,9,102,1113460.57,5.75
+FR,France,Sunday,6,10,115,1617359.74,4.27
+FR,France,Sunday,6,11,110,745138.27,4.1
+FR,France,Sunday,6,12,170,926830.58,4.34
+FR,France,Sunday,6,13,176,712029.01,3.99
+FR,France,Sunday,6,14,94,683675.83,4.07
+FR,France,Sunday,6,15,141,1237523.2,4.4
+FR,France,Sunday,6,16,247,930283.62,3.08
+FR,France,Sunday,6,17,183,523205.84,3.44
+FR,France,Sunday,6,18,72,657495.43,2.94
+FR,France,Sunday,6,19,63,924007.89,3.14
+FR,France,Sunday,6,20,71,171394.66,1.94
+FR,France,Sunday,6,21,41,1999103.95,2.42
+FR,France,Sunday,6,22,36,412743.17,2.03
+FR,France,Sunday,6,23,8,609026.88,2.87
+GB,United Kingdom,Monday,0,0,56,2057707.61,3.37
+GB,United Kingdom,Monday,0,1,38,1309586.58,3.08
+GB,United Kingdom,Monday,0,2,23,798447.17,2.3
+GB,United Kingdom,Monday,0,3,27,387982.3,3.61
+GB,United Kingdom,Monday,0,4,28,192748.43,1.98
+GB,United Kingdom,Monday,0,5,43,1916912.26,2.72
+GB,United Kingdom,Monday,0,6,22,1193483.14,3.07
+GB,United Kingdom,Monday,0,7,43,1221620.95,2.48
+GB,United Kingdom,Monday,0,8,51,8681295.75,2.66
+GB,United Kingdom,Monday,0,9,56,2594902.7,5.25
+GB,United Kingdom,Monday,0,10,59,1479284.15,4.89
+GB,United Kingdom,Monday,0,11,64,848127.88,3.83
+GB,United Kingdom,Monday,0,12,98,2134659.61,2.51
+GB,United Kingdom,Monday,0,13,90,1341379.62,2.89
+GB,United Kingdom,Monday,0,14,166,891622.95,2.7
+GB,United Kingdom,Monday,0,15,136,1828901.89,5.04
+GB,United Kingdom,Monday,0,16,170,1141359.21,3.18
+GB,United Kingdom,Monday,0,17,177,852313.38,3.51
+GB,United Kingdom,Monday,0,18,164,1039077.98,3.56
+GB,United Kingdom,Monday,0,19,103,640660.07,3.17
+GB,United Kingdom,Monday,0,20,192,504261.56,2.8
+GB,United Kingdom,Monday,0,21,129,897288.39,2.84
+GB,United Kingdom,Monday,0,22,109,621783.94,3.27
+GB,United Kingdom,Monday,0,23,82,812242.29,3.46
+GB,United Kingdom,Tuesday,1,0,65,675482.17,2.86
+GB,United Kingdom,Tuesday,1,1,58,1360185.81,3.8
+GB,United Kingdom,Tuesday,1,2,34,1215151.41,3.45
+GB,United Kingdom,Tuesday,1,3,37,757698.92,4.08
+GB,United Kingdom,Tuesday,1,4,49,646146.84,7.11
+GB,United Kingdom,Tuesday,1,5,56,1324559.02,3.86
+GB,United Kingdom,Tuesday,1,6,32,958885.41,2.51
+GB,United Kingdom,Tuesday,1,7,36,1928310.06,2.1
+GB,United Kingdom,Tuesday,1,8,71,1568438.18,1.73
+GB,United Kingdom,Tuesday,1,9,76,1471832.96,6.63
+GB,United Kingdom,Tuesday,1,10,54,1620904.24,6.85
+GB,United Kingdom,Tuesday,1,11,75,863469.35,2.99
+GB,United Kingdom,Tuesday,1,12,187,13543849.51,5.39
+GB,United Kingdom,Tuesday,1,13,90,842282.72,2.72
+GB,United Kingdom,Tuesday,1,14,196,813156.2,2.81
+GB,United Kingdom,Tuesday,1,15,140,934040.53,4.36
+GB,United Kingdom,Tuesday,1,16,223,1213859.76,3.41
+GB,United Kingdom,Tuesday,1,17,203,488993.84,3.59
+GB,United Kingdom,Tuesday,1,18,187,713050.12,3.63
+GB,United Kingdom,Tuesday,1,19,137,1103859.31,2.7
+GB,United Kingdom,Tuesday,1,20,210,658144.65,2.61
+GB,United Kingdom,Tuesday,1,21,141,453276.25,3.27
+GB,United Kingdom,Tuesday,1,22,129,1152345.29,2.91
+GB,United Kingdom,Tuesday,1,23,100,8409401.67,2.68
+GB,United Kingdom,Wednesday,2,0,74,1148459.47,2.96
+GB,United Kingdom,Wednesday,2,1,57,2047496.63,2.72
+GB,United Kingdom,Wednesday,2,2,43,963526.91,3.14
+GB,United Kingdom,Wednesday,2,3,30,1507901.4,4.02
+GB,United Kingdom,Wednesday,2,4,42,904435.1,2.83
+GB,United Kingdom,Wednesday,2,5,58,470359.34,2.65
+GB,United Kingdom,Wednesday,2,6,37,2112214.84,2.78
+GB,United Kingdom,Wednesday,2,7,49,4167028.45,2.82
+GB,United Kingdom,Wednesday,2,8,70,1028114.34,2.69
+GB,United Kingdom,Wednesday,2,9,57,1665366.12,4.33
+GB,United Kingdom,Wednesday,2,10,70,2420676.31,4.38
+GB,United Kingdom,Wednesday,2,11,92,4768799.8,3.83
+GB,United Kingdom,Wednesday,2,12,123,798628.37,3.16
+GB,United Kingdom,Wednesday,2,13,148,1015570.34,4.98
+GB,United Kingdom,Wednesday,2,14,215,1512164.63,3.13
+GB,United Kingdom,Wednesday,2,15,249,932379.61,3.98
+GB,United Kingdom,Wednesday,2,16,236,978010.99,3.06
+GB,United Kingdom,Wednesday,2,17,241,1093451.85,3.61
+GB,United Kingdom,Wednesday,2,18,246,880427.39,4.16
+GB,United Kingdom,Wednesday,2,19,178,1194065.47,3.45
+GB,United Kingdom,Wednesday,2,20,246,358826.25,2.77
+GB,United Kingdom,Wednesday,2,21,141,1697163.28,3.28
+GB,United Kingdom,Wednesday,2,22,130,1256348.88,3.29
+GB,United Kingdom,Wednesday,2,23,79,873687.7,2.9
+GB,United Kingdom,Thursday,3,0,81,1022722.27,3.0
+GB,United Kingdom,Thursday,3,1,61,1691517.41,2.81
+GB,United Kingdom,Thursday,3,2,33,708282.97,3.11
+GB,United Kingdom,Thursday,3,3,34,919179.06,4.0
+GB,United Kingdom,Thursday,3,4,59,1393627.64,3.12
+GB,United Kingdom,Thursday,3,5,54,727428.26,2.14
+GB,United Kingdom,Thursday,3,6,38,582425.87,3.14
+GB,United Kingdom,Thursday,3,7,51,4761546.86,2.21
+GB,United Kingdom,Thursday,3,8,86,2840191.7,3.16
+GB,United Kingdom,Thursday,3,9,67,4269204.27,5.65
+GB,United Kingdom,Thursday,3,10,69,2005555.13,4.62
+GB,United Kingdom,Thursday,3,11,83,942517.92,4.9
+GB,United Kingdom,Thursday,3,12,108,1240726.24,3.11
+GB,United Kingdom,Thursday,3,13,106,1927017.68,2.78
+GB,United Kingdom,Thursday,3,14,176,592593.1,2.95
+GB,United Kingdom,Thursday,3,15,152,1822767.2,2.94
+GB,United Kingdom,Thursday,3,16,236,2420069.76,3.29
+GB,United Kingdom,Thursday,3,17,233,2015896.2,3.05
+GB,United Kingdom,Thursday,3,18,176,975904.67,3.34
+GB,United Kingdom,Thursday,3,19,156,3346530.21,2.82
+GB,United Kingdom,Thursday,3,20,194,455984.19,2.74
+GB,United Kingdom,Thursday,3,21,148,486278.98,3.22
+GB,United Kingdom,Thursday,3,22,101,817229.11,2.74
+GB,United Kingdom,Thursday,3,23,81,462913.64,2.77
+GB,United Kingdom,Friday,4,0,58,1165388.41,3.09
+GB,United Kingdom,Friday,4,1,49,1385929.96,3.23
+GB,United Kingdom,Friday,4,2,35,682446.37,2.86
+GB,United Kingdom,Friday,4,3,41,607004.37,2.67
+GB,United Kingdom,Friday,4,4,83,1881172.16,2.8
+GB,United Kingdom,Friday,4,5,71,1155753.73,3.49
+GB,United Kingdom,Friday,4,6,31,3092881.19,3.1
+GB,United Kingdom,Friday,4,7,48,6864337.17,2.75
+GB,United Kingdom,Friday,4,8,64,7404734.94,2.12
+GB,United Kingdom,Friday,4,9,50,1474297.92,4.5
+GB,United Kingdom,Friday,4,10,76,2093656.5,2.65
+GB,United Kingdom,Friday,4,11,79,1160011.11,3.75
+GB,United Kingdom,Friday,4,12,99,1952720.85,3.1
+GB,United Kingdom,Friday,4,13,82,2182172.18,3.13
+GB,United Kingdom,Friday,4,14,166,936307.82,3.44
+GB,United Kingdom,Friday,4,15,168,1700932.24,4.21
+GB,United Kingdom,Friday,4,16,199,810420.54,3.38
+GB,United Kingdom,Friday,4,17,193,768766.3,3.35
+GB,United Kingdom,Friday,4,18,167,1076155.44,3.26
+GB,United Kingdom,Friday,4,19,109,972841.72,2.75
+GB,United Kingdom,Friday,4,20,158,314959.25,2.28
+GB,United Kingdom,Friday,4,21,127,893647.5,2.57
+GB,United Kingdom,Friday,4,22,105,787358.7,3.08
+GB,United Kingdom,Friday,4,23,85,702334.75,2.66
+GB,United Kingdom,Saturday,5,0,57,1844354.23,2.89
+GB,United Kingdom,Saturday,5,1,41,2544813.71,3.34
+GB,United Kingdom,Saturday,5,2,39,1272318.95,2.72
+GB,United Kingdom,Saturday,5,3,23,858268.43,4.27
+GB,United Kingdom,Saturday,5,4,30,674191.77,3.47
+GB,United Kingdom,Saturday,5,5,54,304374.91,1.75
+GB,United Kingdom,Saturday,5,6,36,1301503.25,3.24
+GB,United Kingdom,Saturday,5,7,34,2732491.32,3.25
+GB,United Kingdom,Saturday,5,8,61,3805451.74,3.45
+GB,United Kingdom,Saturday,5,9,47,1577272.72,4.29
+GB,United Kingdom,Saturday,5,10,52,1628426.54,4.4
+GB,United Kingdom,Saturday,5,11,69,2664125.61,2.62
+GB,United Kingdom,Saturday,5,12,81,1816244.52,2.97
+GB,United Kingdom,Saturday,5,13,82,3105981.02,2.54
+GB,United Kingdom,Saturday,5,14,164,1183462.49,2.53
+GB,United Kingdom,Saturday,5,15,139,2928254.13,3.92
+GB,United Kingdom,Saturday,5,16,182,2342241.26,2.82
+GB,United Kingdom,Saturday,5,17,161,1203041.94,3.17
+GB,United Kingdom,Saturday,5,18,123,950197.66,3.32
+GB,United Kingdom,Saturday,5,19,105,905116.6,2.51
+GB,United Kingdom,Saturday,5,20,181,1306468.91,2.21
+GB,United Kingdom,Saturday,5,21,111,1341511.53,2.03
+GB,United Kingdom,Saturday,5,22,98,1549894.72,2.17
+GB,United Kingdom,Saturday,5,23,52,1100343.15,2.8
+GB,United Kingdom,Sunday,6,0,45,1868893.91,2.43
+GB,United Kingdom,Sunday,6,1,41,1434559.78,2.92
+GB,United Kingdom,Sunday,6,2,37,1423571.35,3.25
+GB,United Kingdom,Sunday,6,3,36,1631406.36,3.75
+GB,United Kingdom,Sunday,6,4,36,1160078.0,4.52
+GB,United Kingdom,Sunday,6,5,46,1631433.67,2.13
+GB,United Kingdom,Sunday,6,6,23,1785278.0,3.28
+GB,United Kingdom,Sunday,6,7,24,485366.88,4.5
+GB,United Kingdom,Sunday,6,8,47,1553686.3,4.06
+GB,United Kingdom,Sunday,6,9,49,709556.08,5.21
+GB,United Kingdom,Sunday,6,10,51,1270982.06,4.27
+GB,United Kingdom,Sunday,6,11,64,1092933.16,3.29
+GB,United Kingdom,Sunday,6,12,75,912214.23,3.17
+GB,United Kingdom,Sunday,6,13,89,761936.74,2.76
+GB,United Kingdom,Sunday,6,14,138,515017.17,3.02
+GB,United Kingdom,Sunday,6,15,89,653558.39,5.33
+GB,United Kingdom,Sunday,6,16,110,1293721.6,3.09
+GB,United Kingdom,Sunday,6,17,177,796240.47,2.61
+GB,United Kingdom,Sunday,6,18,142,1346149.25,3.56
+GB,United Kingdom,Sunday,6,19,101,1851095.08,3.16
+GB,United Kingdom,Sunday,6,20,153,1258550.54,2.33
+GB,United Kingdom,Sunday,6,21,110,1863090.72,2.52
+GB,United Kingdom,Sunday,6,22,88,914842.44,2.58
+GB,United Kingdom,Sunday,6,23,58,845970.97,2.29
+IN,India,Monday,0,0,117,878693.98,1.76
+IN,India,Monday,0,1,59,1787669.73,2.57
+IN,India,Monday,0,2,26,262494.65,4.25
+IN,India,Monday,0,3,44,402491.93,4.56
+IN,India,Monday,0,4,55,700137.2,3.13
+IN,India,Monday,0,5,93,997952.97,2.86
+IN,India,Monday,0,6,68,1943401.5,3.12
+IN,India,Monday,0,7,93,1228201.56,2.35
+IN,India,Monday,0,8,122,1559545.87,2.25
+IN,India,Monday,0,9,154,1321806.56,3.25
+IN,India,Monday,0,10,156,1778433.29,3.16
+IN,India,Monday,0,11,151,1580382.44,2.71
+IN,India,Monday,0,12,231,1282434.92,2.28
+IN,India,Monday,0,13,186,1543282.24,2.94
+IN,India,Monday,0,14,133,1844018.36,3.18
+IN,India,Monday,0,15,114,2425486.54,4.94
+IN,India,Monday,0,16,86,1926248.77,3.0
+IN,India,Monday,0,17,31,2120382.19,3.39
+IN,India,Monday,0,18,25,1004426.52,3.52
+IN,India,Monday,0,19,14,648974.79,3.22
+IN,India,Monday,0,20,14,557946.43,5.12
+IN,India,Monday,0,21,35,505712.77,5.88
+IN,India,Monday,0,22,30,580576.33,4.2
+IN,India,Monday,0,23,88,86056.43,1.51
+IN,India,Tuesday,1,0,142,971198.77,1.72
+IN,India,Tuesday,1,1,80,1859435.42,2.23
+IN,India,Tuesday,1,2,34,449176.53,3.82
+IN,India,Tuesday,1,3,58,677308.47,4.92
+IN,India,Tuesday,1,4,76,705981.95,5.93
+IN,India,Tuesday,1,5,143,1155581.39,3.41
+IN,India,Tuesday,1,6,107,761742.97,3.26
+IN,India,Tuesday,1,7,82,786416.29,2.43
+IN,India,Tuesday,1,8,138,1526216.17,2.23
+IN,India,Tuesday,1,9,163,1535648.01,3.74
+IN,India,Tuesday,1,10,196,1312790.48,3.65
+IN,India,Tuesday,1,11,176,1145532.77,2.57
+IN,India,Tuesday,1,12,279,1633579.94,4.29
+IN,India,Tuesday,1,13,191,1472975.47,3.02
+IN,India,Tuesday,1,14,166,1517105.55,3.38
+IN,India,Tuesday,1,15,96,2048003.75,4.58
+IN,India,Tuesday,1,16,72,1213174.31,2.82
+IN,India,Tuesday,1,17,38,2587138.24,3.3
+IN,India,Tuesday,1,18,60,120930.93,1.89
+IN,India,Tuesday,1,19,15,742731.47,3.3
+IN,India,Tuesday,1,20,20,389278.85,4.45
+IN,India,Tuesday,1,21,28,446954.89,5.85
+IN,India,Tuesday,1,22,39,430914.51,3.8
+IN,India,Tuesday,1,23,99,340284.94,1.68
+IN,India,Wednesday,2,0,143,820582.06,1.65
+IN,India,Wednesday,2,1,81,2875561.98,2.33
+IN,India,Wednesday,2,2,37,455151.68,4.56
+IN,India,Wednesday,2,3,72,688737.97,4.29
+IN,India,Wednesday,2,4,70,2063352.06,3.75
+IN,India,Wednesday,2,5,116,805977.94,2.65
+IN,India,Wednesday,2,6,91,1436046.44,3.63
+IN,India,Wednesday,2,7,93,1495179.37,2.42
+IN,India,Wednesday,2,8,160,2098778.71,2.68
+IN,India,Wednesday,2,9,124,1389692.47,3.07
+IN,India,Wednesday,2,10,145,1892069.0,3.41
+IN,India,Wednesday,2,11,192,1398291.84,2.9
+IN,India,Wednesday,2,12,283,1213671.15,2.59
+IN,India,Wednesday,2,13,225,1268022.4,4.23
+IN,India,Wednesday,2,14,161,1589977.27,3.68
+IN,India,Wednesday,2,15,112,2094869.43,4.29
+IN,India,Wednesday,2,16,82,1745320.15,3.12
+IN,India,Wednesday,2,17,44,2207102.98,3.44
+IN,India,Wednesday,2,18,52,626934.58,3.37
+IN,India,Wednesday,2,19,20,1770403.6,4.07
+IN,India,Wednesday,2,20,30,1037025.37,3.37
+IN,India,Wednesday,2,21,27,504279.78,5.73
+IN,India,Wednesday,2,22,38,382335.0,4.03
+IN,India,Wednesday,2,23,99,165514.79,1.64
+IN,India,Thursday,3,0,147,1114709.82,1.61
+IN,India,Thursday,3,1,92,1203843.21,2.04
+IN,India,Thursday,3,2,35,314362.54,4.51
+IN,India,Thursday,3,3,67,838454.22,4.41
+IN,India,Thursday,3,4,75,2655138.76,3.7
+IN,India,Thursday,3,5,130,748385.49,2.89
+IN,India,Thursday,3,6,97,898061.22,3.2
+IN,India,Thursday,3,7,120,1320630.93,2.84
+IN,India,Thursday,3,8,139,1846082.67,2.89
+IN,India,Thursday,3,9,151,1348172.88,3.62
+IN,India,Thursday,3,10,171,1093010.18,3.47
+IN,India,Thursday,3,11,193,1199302.25,2.58
+IN,India,Thursday,3,12,220,1719296.46,2.82
+IN,India,Thursday,3,13,188,1196795.77,2.88
+IN,India,Thursday,3,14,142,1626260.98,3.06
+IN,India,Thursday,3,15,100,1641844.28,4.07
+IN,India,Thursday,3,16,100,2339665.63,2.67
+IN,India,Thursday,3,17,34,3661893.44,3.29
+IN,India,Thursday,3,18,72,318132.86,1.93
+IN,India,Thursday,3,19,16,1607742.94,4.05
+IN,India,Thursday,3,20,20,605236.2,4.56
+IN,India,Thursday,3,21,20,488065.45,5.89
+IN,India,Thursday,3,22,39,347903.31,4.17
+IN,India,Thursday,3,23,86,146156.12,1.89
+IN,India,Friday,4,0,135,1017324.49,1.9
+IN,India,Friday,4,1,67,4765093.3,2.39
+IN,India,Friday,4,2,27,809247.85,4.63
+IN,India,Friday,4,3,67,520427.16,5.35
+IN,India,Friday,4,4,69,1879749.93,3.86
+IN,India,Friday,4,5,119,781710.87,2.73
+IN,India,Friday,4,6,81,1456541.05,3.68
+IN,India,Friday,4,7,75,1337148.43,3.04
+IN,India,Friday,4,8,108,1238861.42,1.95
+IN,India,Friday,4,9,123,1600396.86,2.72
+IN,India,Friday,4,10,204,1426156.63,2.43
+IN,India,Friday,4,11,209,925133.12,2.74
+IN,India,Friday,4,12,234,1396951.82,2.29
+IN,India,Friday,4,13,207,1172069.66,3.06
+IN,India,Friday,4,14,183,1097417.35,2.97
+IN,India,Friday,4,15,130,1479520.92,4.1
+IN,India,Friday,4,16,80,2042455.18,2.85
+IN,India,Friday,4,17,34,1932922.53,3.49
+IN,India,Friday,4,18,57,219780.02,2.91
+IN,India,Friday,4,19,13,294436.38,4.16
+IN,India,Friday,4,20,22,758113.91,4.73
+IN,India,Friday,4,21,26,397498.04,5.14
+IN,India,Friday,4,22,33,362765.67,5.18
+IN,India,Friday,4,23,95,139817.48,1.89
+IN,India,Saturday,5,0,143,883174.1,1.7
+IN,India,Saturday,5,1,56,1448726.88,2.16
+IN,India,Saturday,5,2,38,1639428.05,4.29
+IN,India,Saturday,5,3,63,1248114.78,5.81
+IN,India,Saturday,5,4,59,1056799.88,3.58
+IN,India,Saturday,5,5,114,537097.9,2.17
+IN,India,Saturday,5,6,74,1393677.72,3.01
+IN,India,Saturday,5,7,96,2236360.67,2.87
+IN,India,Saturday,5,8,120,1746394.58,3.13
+IN,India,Saturday,5,9,138,1703973.09,2.48
+IN,India,Saturday,5,10,161,1497754.6,2.9
+IN,India,Saturday,5,11,185,1292311.48,2.41
+IN,India,Saturday,5,12,234,1298604.27,2.75
+IN,India,Saturday,5,13,180,1941094.33,2.84
+IN,India,Saturday,5,14,153,1548791.25,3.02
+IN,India,Saturday,5,15,88,1746148.38,4.05
+IN,India,Saturday,5,16,85,1572303.2,3.73
+IN,India,Saturday,5,17,29,4721183.34,3.51
+IN,India,Saturday,5,18,18,2502777.28,3.82
+IN,India,Saturday,5,19,15,543699.93,4.75
+IN,India,Saturday,5,20,11,694105.55,7.1
+IN,India,Saturday,5,21,32,484709.59,5.44
+IN,India,Saturday,5,22,32,317090.59,3.99
+IN,India,Saturday,5,23,81,106662.63,1.4
+IN,India,Sunday,6,0,148,2784199.86,1.57
+IN,India,Sunday,6,1,69,1727124.91,2.35
+IN,India,Sunday,6,2,29,1619451.52,3.84
+IN,India,Sunday,6,3,74,1489858.01,3.72
+IN,India,Sunday,6,4,101,871324.38,4.56
+IN,India,Sunday,6,5,125,719222.82,2.94
+IN,India,Sunday,6,6,102,1799854.11,3.79
+IN,India,Sunday,6,7,115,2715589.76,3.11
+IN,India,Sunday,6,8,122,2294655.03,2.94
+IN,India,Sunday,6,9,127,1586939.12,3.53
+IN,India,Sunday,6,10,107,1479801.47,4.39
+IN,India,Sunday,6,11,105,1523856.28,3.14
+IN,India,Sunday,6,12,172,1429307.51,3.09
+IN,India,Sunday,6,13,168,1851323.29,3.04
+IN,India,Sunday,6,14,127,1520651.43,2.84
+IN,India,Sunday,6,15,81,2385185.05,5.57
+IN,India,Sunday,6,16,36,2537187.44,3.56
+IN,India,Sunday,6,17,36,1081465.36,3.17
+IN,India,Sunday,6,18,18,1390208.56,4.56
+IN,India,Sunday,6,19,14,696987.93,3.56
+IN,India,Sunday,6,20,12,810288.25,6.23
+IN,India,Sunday,6,21,22,661652.14,5.94
+IN,India,Sunday,6,22,29,424147.83,4.49
+IN,India,Sunday,6,23,83,134560.52,1.89
+JP,Japan,Monday,0,0,12,1624142.83,4.18
+JP,Japan,Monday,0,1,16,1262279.25,2.86
+JP,Japan,Monday,0,2,39,183850.03,1.64
+JP,Japan,Monday,0,3,95,1422030.03,3.01
+JP,Japan,Monday,0,4,43,380633.49,4.52
+JP,Japan,Monday,0,5,50,443232.16,3.36
+JP,Japan,Monday,0,6,84,1863775.02,2.01
+JP,Japan,Monday,0,7,103,734939.43,2.33
+JP,Japan,Monday,0,8,127,2078925.17,3.17
+JP,Japan,Monday,0,9,284,979173.57,4.17
+JP,Japan,Monday,0,10,203,434892.61,4.32
+JP,Japan,Monday,0,11,282,766946.02,4.99
+JP,Japan,Monday,0,12,121,1350194.31,4.33
+JP,Japan,Monday,0,13,144,1085030.94,4.52
+JP,Japan,Monday,0,14,55,1529938.4,3.44
+JP,Japan,Monday,0,15,91,876769.93,5.33
+JP,Japan,Monday,0,16,17,3166017.24,2.94
+JP,Japan,Monday,0,17,31,328490.23,1.99
+JP,Japan,Monday,0,18,27,2128883.78,1.93
+JP,Japan,Monday,0,19,20,181961.9,1.42
+JP,Japan,Monday,0,20,12,235396.0,1.71
+JP,Japan,Monday,0,21,10,808619.9,2.64
+JP,Japan,Monday,0,22,33,416464.45,2.01
+JP,Japan,Monday,0,23,21,974247.76,2.96
+JP,Japan,Tuesday,1,0,24,228471.79,1.93
+JP,Japan,Tuesday,1,1,29,480008.0,2.36
+JP,Japan,Tuesday,1,2,38,449249.21,4.29
+JP,Japan,Tuesday,1,3,169,925772.39,4.65
+JP,Japan,Tuesday,1,4,63,669825.44,5.98
+JP,Japan,Tuesday,1,5,58,493988.36,4.68
+JP,Japan,Tuesday,1,6,83,1835842.64,2.25
+JP,Japan,Tuesday,1,7,125,872745.72,2.6
+JP,Japan,Tuesday,1,8,154,1138081.79,2.62
+JP,Japan,Tuesday,1,9,371,576894.02,4.12
+JP,Japan,Tuesday,1,10,253,553671.72,4.46
+JP,Japan,Tuesday,1,11,255,1811083.23,4.47
+JP,Japan,Tuesday,1,12,193,1346869.36,6.38
+JP,Japan,Tuesday,1,13,150,864640.17,4.47
+JP,Japan,Tuesday,1,14,75,794401.96,3.3
+JP,Japan,Tuesday,1,15,69,1295584.36,5.2
+JP,Japan,Tuesday,1,16,34,231842.74,2.82
+JP,Japan,Tuesday,1,17,30,394949.97,2.69
+JP,Japan,Tuesday,1,18,17,255259.35,1.74
+JP,Japan,Tuesday,1,19,32,603288.22,1.49
+JP,Japan,Tuesday,1,20,15,730833.73,2.19
+JP,Japan,Tuesday,1,21,19,1144873.21,2.18
+JP,Japan,Tuesday,1,22,30,473331.43,1.64
+JP,Japan,Tuesday,1,23,26,1551045.96,2.17
+JP,Japan,Wednesday,2,0,15,202937.33,0.59
+JP,Japan,Wednesday,2,1,28,2293540.82,2.92
+JP,Japan,Wednesday,2,2,47,1353101.77,2.58
+JP,Japan,Wednesday,2,3,97,1627336.91,2.9
+JP,Japan,Wednesday,2,4,59,676434.97,2.48
+JP,Japan,Wednesday,2,5,48,677632.56,2.46
+JP,Japan,Wednesday,2,6,81,2075881.19,1.96
+JP,Japan,Wednesday,2,7,122,2042797.19,2.94
+JP,Japan,Wednesday,2,8,217,1294821.16,3.5
+JP,Japan,Wednesday,2,9,324,696925.5,3.98
+JP,Japan,Wednesday,2,10,253,844715.43,3.6
+JP,Japan,Wednesday,2,11,704,1079727.25,3.46
+JP,Japan,Wednesday,2,12,153,955041.59,4.0
+JP,Japan,Wednesday,2,13,272,1506490.65,4.31
+JP,Japan,Wednesday,2,14,88,1124533.72,3.79
+JP,Japan,Wednesday,2,15,83,597670.01,5.21
+JP,Japan,Wednesday,2,16,33,1444856.73,2.25
+JP,Japan,Wednesday,2,17,42,640500.0,1.96
+JP,Japan,Wednesday,2,18,36,308934.94,2.2
+JP,Japan,Wednesday,2,19,33,1651635.7,1.33
+JP,Japan,Wednesday,2,20,18,1742587.17,1.44
+JP,Japan,Wednesday,2,21,22,587308.23,1.38
+JP,Japan,Wednesday,2,22,35,477461.77,2.02
+JP,Japan,Wednesday,2,23,25,742566.48,2.98
+JP,Japan,Thursday,3,0,31,2008121.03,0.95
+JP,Japan,Thursday,3,1,38,271739.76,2.34
+JP,Japan,Thursday,3,2,50,496474.54,3.18
+JP,Japan,Thursday,3,3,95,747548.46,3.61
+JP,Japan,Thursday,3,4,53,478147.64,2.79
+JP,Japan,Thursday,3,5,31,210752.58,3.54
+JP,Japan,Thursday,3,6,96,1778995.12,2.29
+JP,Japan,Thursday,3,7,175,1623137.77,2.42
+JP,Japan,Thursday,3,8,248,1366746.13,3.27
+JP,Japan,Thursday,3,9,357,1148395.86,4.02
+JP,Japan,Thursday,3,10,260,664095.11,4.4
+JP,Japan,Thursday,3,11,244,863074.31,4.9
+JP,Japan,Thursday,3,12,170,1530200.74,4.42
+JP,Japan,Thursday,3,13,185,1157579.34,3.96
+JP,Japan,Thursday,3,14,69,672476.54,3.34
+JP,Japan,Thursday,3,15,54,890340.41,2.83
+JP,Japan,Thursday,3,16,33,1196755.64,2.11
+JP,Japan,Thursday,3,17,17,182138.0,1.93
+JP,Japan,Thursday,3,18,30,413863.47,2.2
+JP,Japan,Thursday,3,19,12,719546.08,1.04
+JP,Japan,Thursday,3,20,16,278954.81,1.21
+JP,Japan,Thursday,3,21,20,490197.55,1.64
+JP,Japan,Thursday,3,22,36,429070.5,1.68
+JP,Japan,Thursday,3,23,12,216059.33,1.83
+JP,Japan,Friday,4,0,27,393668.41,2.97
+JP,Japan,Friday,4,1,27,1142587.37,3.53
+JP,Japan,Friday,4,2,34,428746.0,3.41
+JP,Japan,Friday,4,3,182,1030031.33,4.23
+JP,Japan,Friday,4,4,52,1481111.38,3.71
+JP,Japan,Friday,4,5,93,467456.98,7.24
+JP,Japan,Friday,4,6,104,1608042.06,2.11
+JP,Japan,Friday,4,7,158,2019099.5,2.23
+JP,Japan,Friday,4,8,279,2366119.49,2.54
+JP,Japan,Friday,4,9,326,871502.65,3.41
+JP,Japan,Friday,4,10,204,487792.79,3.71
+JP,Japan,Friday,4,11,317,757315.09,4.94
+JP,Japan,Friday,4,12,135,1173643.35,3.4
+JP,Japan,Friday,4,13,343,2123020.48,3.71
+JP,Japan,Friday,4,14,99,1137250.03,4.06
+JP,Japan,Friday,4,15,78,998507.76,3.5
+JP,Japan,Friday,4,16,28,358065.36,2.11
+JP,Japan,Friday,4,17,16,386467.0,2.45
+JP,Japan,Friday,4,18,19,227254.63,1.81
+JP,Japan,Friday,4,19,18,1320313.28,1.52
+JP,Japan,Friday,4,20,24,306635.17,1.5
+JP,Japan,Friday,4,21,18,2885612.28,1.55
+JP,Japan,Friday,4,22,14,250186.79,2.07
+JP,Japan,Friday,4,23,18,570193.94,2.04
+JP,Japan,Saturday,5,0,8,2126106.88,2.07
+JP,Japan,Saturday,5,1,22,468590.82,4.31
+JP,Japan,Saturday,5,2,49,1169899.98,2.88
+JP,Japan,Saturday,5,3,177,1531254.97,2.57
+JP,Japan,Saturday,5,4,54,574368.59,3.71
+JP,Japan,Saturday,5,5,65,435501.52,2.96
+JP,Japan,Saturday,5,6,71,1134468.79,2.29
+JP,Japan,Saturday,5,7,163,803076.09,2.82
+JP,Japan,Saturday,5,8,216,1570963.88,3.11
+JP,Japan,Saturday,5,9,224,1007463.28,4.38
+JP,Japan,Saturday,5,10,201,637032.01,3.54
+JP,Japan,Saturday,5,11,250,686311.86,3.69
+JP,Japan,Saturday,5,12,142,1572201.88,4.34
+JP,Japan,Saturday,5,13,225,1350043.29,4.11
+JP,Japan,Saturday,5,14,66,898222.12,2.96
+JP,Japan,Saturday,5,15,91,3685784.08,4.09
+JP,Japan,Saturday,5,16,40,5519215.88,2.54
+JP,Japan,Saturday,5,17,19,1702116.68,2.71
+JP,Japan,Saturday,5,18,27,284773.56,1.81
+JP,Japan,Saturday,5,19,19,384034.47,1.44
+JP,Japan,Saturday,5,20,15,4592596.13,1.6
+JP,Japan,Saturday,5,21,16,478794.88,2.3
+JP,Japan,Saturday,5,22,25,531468.4,1.87
+JP,Japan,Saturday,5,23,16,667030.5,2.41
+JP,Japan,Sunday,6,0,14,1251887.21,1.87
+JP,Japan,Sunday,6,1,29,1006415.79,5.07
+JP,Japan,Sunday,6,2,43,664584.23,2.83
+JP,Japan,Sunday,6,3,162,1419028.23,3.3
+JP,Japan,Sunday,6,4,52,911752.46,4.32
+JP,Japan,Sunday,6,5,48,609257.9,3.05
+JP,Japan,Sunday,6,6,81,647871.74,2.12
+JP,Japan,Sunday,6,7,130,558424.19,3.03
+JP,Japan,Sunday,6,8,174,1629592.81,3.3
+JP,Japan,Sunday,6,9,214,969297.34,4.47
+JP,Japan,Sunday,6,10,209,589429.68,3.9
+JP,Japan,Sunday,6,11,217,1129983.21,4.07
+JP,Japan,Sunday,6,12,167,1010561.9,3.35
+JP,Japan,Sunday,6,13,132,790999.61,4.42
+JP,Japan,Sunday,6,14,64,944172.16,4.26
+JP,Japan,Sunday,6,15,70,2588486.89,4.94
+JP,Japan,Sunday,6,16,26,2141275.46,2.72
+JP,Japan,Sunday,6,17,40,2923230.2,0.99
+JP,Japan,Sunday,6,18,20,898428.25,2.01
+JP,Japan,Sunday,6,19,22,672697.73,2.15
+JP,Japan,Sunday,6,20,16,405978.44,2.16
+JP,Japan,Sunday,6,21,12,2743591.5,2.5
+JP,Japan,Sunday,6,22,24,1463467.08,1.74
+JP,Japan,Sunday,6,23,21,531608.1,2.46
+KR,South Korea,Monday,0,0,23,740983.48,2.54
+KR,South Korea,Monday,0,1,41,641214.29,1.21
+KR,South Korea,Monday,0,2,79,740080.56,1.3
+KR,South Korea,Monday,0,3,155,283075.82,2.13
+KR,South Korea,Monday,0,4,47,379302.15,1.75
+KR,South Korea,Monday,0,5,72,387606.44,1.65
+KR,South Korea,Monday,0,6,69,327587.93,1.76
+KR,South Korea,Monday,0,7,130,454171.51,1.45
+KR,South Korea,Monday,0,8,174,1855326.81,1.59
+KR,South Korea,Monday,0,9,569,8249680.3,2.04
+KR,South Korea,Monday,0,10,184,448986.97,2.86
+KR,South Korea,Monday,0,11,219,582930.61,2.48
+KR,South Korea,Monday,0,12,161,400003.86,2.1
+KR,South Korea,Monday,0,13,185,467215.1,2.87
+KR,South Korea,Monday,0,14,98,576356.65,1.39
+KR,South Korea,Monday,0,15,111,529844.97,5.81
+KR,South Korea,Monday,0,16,20,634818.55,1.36
+KR,South Korea,Monday,0,17,10,60964.6,1.39
+KR,South Korea,Monday,0,18,12,258240.25,2.14
+KR,South Korea,Monday,0,19,5,261855.8,1.56
+KR,South Korea,Monday,0,20,14,129454.07,1.37
+KR,South Korea,Monday,0,21,7,387684.57,1.57
+KR,South Korea,Monday,0,22,19,268333.11,1.91
+KR,South Korea,Monday,0,23,23,228655.48,1.46
+KR,South Korea,Tuesday,1,0,28,396390.93,1.78
+KR,South Korea,Tuesday,1,1,41,456431.71,1.7
+KR,South Korea,Tuesday,1,2,53,404296.75,1.94
+KR,South Korea,Tuesday,1,3,159,312654.26,1.57
+KR,South Korea,Tuesday,1,4,64,633862.08,4.91
+KR,South Korea,Tuesday,1,5,75,577241.45,2.8
+KR,South Korea,Tuesday,1,6,46,403209.28,1.83
+KR,South Korea,Tuesday,1,7,112,470179.32,1.57
+KR,South Korea,Tuesday,1,8,146,518625.56,1.87
+KR,South Korea,Tuesday,1,9,437,3443299.41,2.79
+KR,South Korea,Tuesday,1,10,232,538025.52,3.12
+KR,South Korea,Tuesday,1,11,227,538279.33,2.42
+KR,South Korea,Tuesday,1,12,239,833418.2,4.5
+KR,South Korea,Tuesday,1,13,159,462383.38,1.76
+KR,South Korea,Tuesday,1,14,99,581816.21,1.59
+KR,South Korea,Tuesday,1,15,181,485984.13,3.2
+KR,South Korea,Tuesday,1,16,29,242821.93,0.85
+KR,South Korea,Tuesday,1,17,25,437163.84,1.49
+KR,South Korea,Tuesday,1,18,8,238277.75,0.97
+KR,South Korea,Tuesday,1,19,20,135581.7,1.07
+KR,South Korea,Tuesday,1,20,9,959556.89,1.75
+KR,South Korea,Tuesday,1,21,12,1936134.08,2.25
+KR,South Korea,Tuesday,1,22,19,425768.89,1.36
+KR,South Korea,Tuesday,1,23,19,579872.32,1.65
+KR,South Korea,Wednesday,2,0,31,1568822.13,1.01
+KR,South Korea,Wednesday,2,1,34,2443172.47,1.67
+KR,South Korea,Wednesday,2,2,81,494181.83,1.92
+KR,South Korea,Wednesday,2,3,160,197121.11,1.85
+KR,South Korea,Wednesday,2,4,42,352526.31,1.74
+KR,South Korea,Wednesday,2,5,81,424097.74,1.71
+KR,South Korea,Wednesday,2,6,75,504530.31,1.74
+KR,South Korea,Wednesday,2,7,107,893391.7,2.01
+KR,South Korea,Wednesday,2,8,185,523146.89,2.1
+KR,South Korea,Wednesday,2,9,456,2993269.81,2.32
+KR,South Korea,Wednesday,2,10,282,724543.43,2.4
+KR,South Korea,Wednesday,2,11,264,416902.42,2.97
+KR,South Korea,Wednesday,2,12,181,638274.66,2.91
+KR,South Korea,Wednesday,2,13,186,529449.7,2.93
+KR,South Korea,Wednesday,2,14,113,1119862.06,2.04
+KR,South Korea,Wednesday,2,15,103,876094.75,5.17
+KR,South Korea,Wednesday,2,16,31,1468451.58,1.41
+KR,South Korea,Wednesday,2,17,19,753265.53,1.75
+KR,South Korea,Wednesday,2,18,15,356839.4,1.78
+KR,South Korea,Wednesday,2,19,12,2388992.5,1.58
+KR,South Korea,Wednesday,2,20,12,1313375.83,1.51
+KR,South Korea,Wednesday,2,21,15,982556.2,2.77
+KR,South Korea,Wednesday,2,22,29,264564.03,1.4
+KR,South Korea,Wednesday,2,23,20,279685.7,1.43
+KR,South Korea,Thursday,3,0,14,3632937.07,1.6
+KR,South Korea,Thursday,3,1,32,485238.81,0.95
+KR,South Korea,Thursday,3,2,57,642109.09,1.64
+KR,South Korea,Thursday,3,3,175,312311.05,2.49
+KR,South Korea,Thursday,3,4,44,309346.18,2.03
+KR,South Korea,Thursday,3,5,75,437602.47,2.12
+KR,South Korea,Thursday,3,6,73,594574.59,1.86
+KR,South Korea,Thursday,3,7,115,587166.98,1.55
+KR,South Korea,Thursday,3,8,193,825539.16,2.21
+KR,South Korea,Thursday,3,9,455,1694053.97,2.65
+KR,South Korea,Thursday,3,10,346,864449.47,2.27
+KR,South Korea,Thursday,3,11,251,656245.31,2.52
+KR,South Korea,Thursday,3,12,189,721596.15,2.03
+KR,South Korea,Thursday,3,13,189,801365.9,1.81
+KR,South Korea,Thursday,3,14,84,390587.21,1.29
+KR,South Korea,Thursday,3,15,151,240444.39,3.08
+KR,South Korea,Thursday,3,16,28,846006.96,1.92
+KR,South Korea,Thursday,3,17,24,903998.54,1.02
+KR,South Korea,Thursday,3,18,9,1160056.89,1.5
+KR,South Korea,Thursday,3,19,8,707559.25,1.58
+KR,South Korea,Thursday,3,20,7,118259.71,1.17
+KR,South Korea,Thursday,3,21,6,839817.17,1.14
+KR,South Korea,Thursday,3,22,22,1091434.23,1.05
+KR,South Korea,Thursday,3,23,28,2157300.04,1.42
+KR,South Korea,Friday,4,0,36,848396.0,1.82
+KR,South Korea,Friday,4,1,42,1000509.17,2.26
+KR,South Korea,Friday,4,2,65,563101.95,2.01
+KR,South Korea,Friday,4,3,148,1452496.76,2.64
+KR,South Korea,Friday,4,4,102,7098800.32,1.84
+KR,South Korea,Friday,4,5,85,925709.95,2.3
+KR,South Korea,Friday,4,6,53,1917136.42,2.46
+KR,South Korea,Friday,4,7,87,538032.16,1.77
+KR,South Korea,Friday,4,8,171,726236.3,1.86
+KR,South Korea,Friday,4,9,325,1068266.7,2.34
+KR,South Korea,Friday,4,10,214,461988.57,2.88
+KR,South Korea,Friday,4,11,281,656079.85,2.65
+KR,South Korea,Friday,4,12,156,745122.17,2.08
+KR,South Korea,Friday,4,13,173,665789.69,2.05
+KR,South Korea,Friday,4,14,86,506882.66,2.12
+KR,South Korea,Friday,4,15,88,266126.07,4.37
+KR,South Korea,Friday,4,16,23,930037.35,1.78
+KR,South Korea,Friday,4,17,23,100473.35,1.38
+KR,South Korea,Friday,4,18,11,571132.55,1.47
+KR,South Korea,Friday,4,19,10,1021271.1,1.73
+KR,South Korea,Friday,4,20,10,116490.7,1.58
+KR,South Korea,Friday,4,21,9,817095.0,2.13
+KR,South Korea,Friday,4,22,12,443410.0,1.16
+KR,South Korea,Friday,4,23,39,504623.92,1.68
+KR,South Korea,Saturday,5,0,34,502768.74,1.57
+KR,South Korea,Saturday,5,1,51,1322765.92,1.61
+KR,South Korea,Saturday,5,2,53,426686.15,1.57
+KR,South Korea,Saturday,5,3,154,841816.34,1.87
+KR,South Korea,Saturday,5,4,60,542357.92,1.85
+KR,South Korea,Saturday,5,5,86,566660.98,1.54
+KR,South Korea,Saturday,5,6,72,713046.72,1.88
+KR,South Korea,Saturday,5,7,60,634945.05,1.6
+KR,South Korea,Saturday,5,8,131,1110153.85,2.12
+KR,South Korea,Saturday,5,9,230,598266.34,2.21
+KR,South Korea,Saturday,5,10,208,499268.68,2.25
+KR,South Korea,Saturday,5,11,191,600103.88,1.53
+KR,South Korea,Saturday,5,12,143,598000.94,2.34
+KR,South Korea,Saturday,5,13,162,722717.65,1.49
+KR,South Korea,Saturday,5,14,100,581973.33,1.24
+KR,South Korea,Saturday,5,15,137,391123.13,6.13
+KR,South Korea,Saturday,5,16,30,254442.4,1.09
+KR,South Korea,Saturday,5,17,21,158956.52,1.07
+KR,South Korea,Saturday,5,18,14,364413.0,1.3
+KR,South Korea,Saturday,5,19,17,289232.0,1.13
+KR,South Korea,Saturday,5,20,17,4460306.47,0.62
+KR,South Korea,Saturday,5,21,21,208945.67,1.21
+KR,South Korea,Saturday,5,22,7,939569.0,1.87
+KR,South Korea,Saturday,5,23,41,803474.63,1.54
+KR,South Korea,Sunday,6,0,38,532299.42,1.28
+KR,South Korea,Sunday,6,1,40,540525.28,1.53
+KR,South Korea,Sunday,6,2,61,438780.64,1.56
+KR,South Korea,Sunday,6,3,125,372207.9,1.64
+KR,South Korea,Sunday,6,4,53,666373.25,2.84
+KR,South Korea,Sunday,6,5,77,584347.7,1.42
+KR,South Korea,Sunday,6,6,58,508656.36,1.77
+KR,South Korea,Sunday,6,7,63,850952.98,2.21
+KR,South Korea,Sunday,6,8,97,568697.78,2.18
+KR,South Korea,Sunday,6,9,257,1128080.54,2.05
+KR,South Korea,Sunday,6,10,172,1288042.1,2.12
+KR,South Korea,Sunday,6,11,165,449294.63,1.96
+KR,South Korea,Sunday,6,12,155,476824.23,2.13
+KR,South Korea,Sunday,6,13,194,922304.53,2.42
+KR,South Korea,Sunday,6,14,99,671118.31,1.89
+KR,South Korea,Sunday,6,15,151,676369.03,4.67
+KR,South Korea,Sunday,6,16,28,393497.21,1.17
+KR,South Korea,Sunday,6,17,20,235970.9,1.41
+KR,South Korea,Sunday,6,18,13,73241.46,1.64
+KR,South Korea,Sunday,6,19,6,495308.67,0.76
+KR,South Korea,Sunday,6,20,6,689127.33,3.22
+KR,South Korea,Sunday,6,21,12,112680.75,1.35
+KR,South Korea,Sunday,6,22,15,1082213.6,1.94
+KR,South Korea,Sunday,6,23,31,579188.9,1.14
+MX,Mexico,Monday,0,0,86,966351.78,3.74
+MX,Mexico,Monday,0,1,73,1090129.33,3.88
+MX,Mexico,Monday,0,2,38,584031.53,3.02
+MX,Mexico,Monday,0,3,32,1068606.44,3.89
+MX,Mexico,Monday,0,4,10,613887.3,3.83
+MX,Mexico,Monday,0,5,5,388027.6,6.9
+MX,Mexico,Monday,0,6,8,2410340.5,1.34
+MX,Mexico,Monday,0,7,17,3668873.35,3.78
+MX,Mexico,Monday,0,8,20,21151121.0,3.5
+MX,Mexico,Monday,0,9,50,2794581.88,6.36
+MX,Mexico,Monday,0,10,24,2816262.0,8.3
+MX,Mexico,Monday,0,11,29,2074615.38,6.82
+MX,Mexico,Monday,0,12,35,4992974.4,3.93
+MX,Mexico,Monday,0,13,47,1188410.32,3.96
+MX,Mexico,Monday,0,14,91,1008420.27,2.63
+MX,Mexico,Monday,0,15,75,2285333.24,5.55
+MX,Mexico,Monday,0,16,126,3164087.79,2.57
+MX,Mexico,Monday,0,17,147,1552638.7,3.04
+MX,Mexico,Monday,0,18,182,1469432.59,2.53
+MX,Mexico,Monday,0,19,278,1217525.76,1.96
+MX,Mexico,Monday,0,20,220,1278448.98,2.69
+MX,Mexico,Monday,0,21,243,1928404.14,2.71
+MX,Mexico,Monday,0,22,207,1725469.36,2.48
+MX,Mexico,Monday,0,23,175,1375286.06,2.63
+MX,Mexico,Tuesday,1,0,106,1273508.88,3.51
+MX,Mexico,Tuesday,1,1,83,1011742.4,3.85
+MX,Mexico,Tuesday,1,2,44,720139.84,4.04
+MX,Mexico,Tuesday,1,3,23,967591.35,4.48
+MX,Mexico,Tuesday,1,4,30,1100094.1,9.89
+MX,Mexico,Tuesday,1,5,16,2058037.44,8.26
+MX,Mexico,Tuesday,1,6,8,311404.75,4.57
+MX,Mexico,Tuesday,1,7,21,2906691.57,4.96
+MX,Mexico,Tuesday,1,8,14,4420789.57,2.93
+MX,Mexico,Tuesday,1,9,49,1434469.33,9.38
+MX,Mexico,Tuesday,1,10,29,1083820.83,11.2
+MX,Mexico,Tuesday,1,11,24,1947939.83,5.87
+MX,Mexico,Tuesday,1,12,93,26647093.32,8.94
+MX,Mexico,Tuesday,1,13,54,558283.54,3.78
+MX,Mexico,Tuesday,1,14,127,701975.07,2.63
+MX,Mexico,Tuesday,1,15,105,956489.7,4.35
+MX,Mexico,Tuesday,1,16,183,1054198.37,2.71
+MX,Mexico,Tuesday,1,17,161,1283849.41,2.93
+MX,Mexico,Tuesday,1,18,202,1194824.19,2.4
+MX,Mexico,Tuesday,1,19,344,991194.21,2.05
+MX,Mexico,Tuesday,1,20,226,1487397.23,3.04
+MX,Mexico,Tuesday,1,21,251,2747725.64,2.72
+MX,Mexico,Tuesday,1,22,217,2032232.93,2.35
+MX,Mexico,Tuesday,1,23,170,5672363.14,3.1
+MX,Mexico,Wednesday,2,0,129,1276183.7,3.73
+MX,Mexico,Wednesday,2,1,92,1902886.39,3.83
+MX,Mexico,Wednesday,2,2,46,2009019.8,3.81
+MX,Mexico,Wednesday,2,3,29,1385555.28,5.21
+MX,Mexico,Wednesday,2,4,12,1225079.25,6.47
+MX,Mexico,Wednesday,2,5,7,934240.86,4.79
+MX,Mexico,Wednesday,2,6,18,4356232.56,3.12
+MX,Mexico,Wednesday,2,7,28,5390857.82,4.43
+MX,Mexico,Wednesday,2,8,19,2100922.89,5.48
+MX,Mexico,Wednesday,2,9,28,2869047.29,6.3
+MX,Mexico,Wednesday,2,10,32,3422434.03,7.4
+MX,Mexico,Wednesday,2,11,25,14655875.16,7.27
+MX,Mexico,Wednesday,2,12,41,2143668.37,6.06
+MX,Mexico,Wednesday,2,13,93,1132194.98,5.62
+MX,Mexico,Wednesday,2,14,132,952473.95,2.89
+MX,Mexico,Wednesday,2,15,134,1272455.56,3.21
+MX,Mexico,Wednesday,2,16,221,1454674.76,2.44
+MX,Mexico,Wednesday,2,17,173,1791532.88,2.89
+MX,Mexico,Wednesday,2,18,257,1129862.28,2.7
+MX,Mexico,Wednesday,2,19,315,903798.53,1.93
+MX,Mexico,Wednesday,2,20,243,2274952.15,2.69
+MX,Mexico,Wednesday,2,21,291,1959504.65,2.56
+MX,Mexico,Wednesday,2,22,237,2251430.92,2.92
+MX,Mexico,Wednesday,2,23,155,1258249.16,2.83
+MX,Mexico,Thursday,3,0,157,1043210.13,4.09
+MX,Mexico,Thursday,3,1,76,1620199.04,3.78
+MX,Mexico,Thursday,3,2,38,374865.55,4.45
+MX,Mexico,Thursday,3,3,21,3932663.9,5.89
+MX,Mexico,Thursday,3,4,16,186184.38,3.87
+MX,Mexico,Thursday,3,5,10,395995.8,4.53
+MX,Mexico,Thursday,3,6,8,1201758.12,4.47
+MX,Mexico,Thursday,3,7,35,6241824.37,3.57
+MX,Mexico,Thursday,3,8,34,6096051.44,5.63
+MX,Mexico,Thursday,3,9,46,5931518.78,6.43
+MX,Mexico,Thursday,3,10,24,2701074.62,8.78
+MX,Mexico,Thursday,3,11,28,3307005.21,6.47
+MX,Mexico,Thursday,3,12,29,3532442.86,5.26
+MX,Mexico,Thursday,3,13,59,2508279.34,3.35
+MX,Mexico,Thursday,3,14,116,293491.88,2.52
+MX,Mexico,Thursday,3,15,80,2866177.56,3.15
+MX,Mexico,Thursday,3,16,185,2867927.81,3.01
+MX,Mexico,Thursday,3,17,209,2631331.8,2.66
+MX,Mexico,Thursday,3,18,189,1382578.52,2.46
+MX,Mexico,Thursday,3,19,304,2109618.72,1.91
+MX,Mexico,Thursday,3,20,198,1341140.6,2.66
+MX,Mexico,Thursday,3,21,246,1869730.67,2.44
+MX,Mexico,Thursday,3,22,207,1813389.21,2.31
+MX,Mexico,Thursday,3,23,152,1584052.74,3.04
+MX,Mexico,Friday,4,0,167,1199551.56,2.84
+MX,Mexico,Friday,4,1,114,1548605.89,3.08
+MX,Mexico,Friday,4,2,42,3372220.0,3.15
+MX,Mexico,Friday,4,3,26,6769515.35,3.35
+MX,Mexico,Friday,4,4,37,1860516.0,3.18
+MX,Mexico,Friday,4,5,11,4701100.18,3.49
+MX,Mexico,Friday,4,6,10,8899402.1,5.31
+MX,Mexico,Friday,4,7,32,8075065.72,4.95
+MX,Mexico,Friday,4,8,34,13735928.0,2.87
+MX,Mexico,Friday,4,9,39,1540122.74,6.79
+MX,Mexico,Friday,4,10,28,2232070.39,4.35
+MX,Mexico,Friday,4,11,31,2158856.19,6.64
+MX,Mexico,Friday,4,12,23,4122076.83,5.88
+MX,Mexico,Friday,4,13,48,3834004.67,3.94
+MX,Mexico,Friday,4,14,121,607696.39,2.95
+MX,Mexico,Friday,4,15,121,2217484.88,3.27
+MX,Mexico,Friday,4,16,173,1202230.0,2.43
+MX,Mexico,Friday,4,17,176,1735172.72,2.54
+MX,Mexico,Friday,4,18,199,1423194.38,2.36
+MX,Mexico,Friday,4,19,304,1221799.68,1.92
+MX,Mexico,Friday,4,20,170,1401148.18,2.57
+MX,Mexico,Friday,4,21,237,2024633.74,2.4
+MX,Mexico,Friday,4,22,175,1799619.23,2.56
+MX,Mexico,Friday,4,23,143,1591090.33,2.91
+MX,Mexico,Saturday,5,0,114,1492233.34,3.19
+MX,Mexico,Saturday,5,1,66,1876789.64,3.37
+MX,Mexico,Saturday,5,2,46,1348703.33,3.31
+MX,Mexico,Saturday,5,3,19,563902.42,6.47
+MX,Mexico,Saturday,5,4,15,1665444.93,4.86
+MX,Mexico,Saturday,5,5,8,5882662.0,2.78
+MX,Mexico,Saturday,5,6,11,1788409.36,4.15
+MX,Mexico,Saturday,5,7,21,3908271.67,5.08
+MX,Mexico,Saturday,5,8,20,9845697.95,7.19
+MX,Mexico,Saturday,5,9,20,2423518.55,7.63
+MX,Mexico,Saturday,5,10,18,3619994.17,7.34
+MX,Mexico,Saturday,5,11,17,4021530.12,4.73
+MX,Mexico,Saturday,5,12,17,5698858.47,5.74
+MX,Mexico,Saturday,5,13,31,8847211.23,3.66
+MX,Mexico,Saturday,5,14,64,961807.78,2.43
+MX,Mexico,Saturday,5,15,82,4351874.79,3.91
+MX,Mexico,Saturday,5,16,145,2589033.03,3.06
+MX,Mexico,Saturday,5,17,112,2346303.95,3.0
+MX,Mexico,Saturday,5,18,186,1271527.22,2.78
+MX,Mexico,Saturday,5,19,245,953446.3,2.04
+MX,Mexico,Saturday,5,20,202,1867186.16,2.52
+MX,Mexico,Saturday,5,21,206,3387755.04,2.23
+MX,Mexico,Saturday,5,22,92,2164518.52,3.16
+MX,Mexico,Saturday,5,23,135,2543290.33,2.78
+MX,Mexico,Sunday,6,0,68,2245658.06,3.11
+MX,Mexico,Sunday,6,1,50,932851.22,2.8
+MX,Mexico,Sunday,6,2,29,915891.62,3.31
+MX,Mexico,Sunday,6,3,24,1926981.33,4.61
+MX,Mexico,Sunday,6,4,14,1176789.71,8.68
+MX,Mexico,Sunday,6,5,15,1721233.87,2.73
+MX,Mexico,Sunday,6,6,14,1507275.0,3.76
+MX,Mexico,Sunday,6,7,26,467751.31,5.89
+MX,Mexico,Sunday,6,8,21,6402048.57,5.9
+MX,Mexico,Sunday,6,9,21,3590573.14,8.51
+MX,Mexico,Sunday,6,10,20,4294362.1,7.34
+MX,Mexico,Sunday,6,11,19,2885881.84,4.28
+MX,Mexico,Sunday,6,12,16,3204400.12,6.63
+MX,Mexico,Sunday,6,13,29,1659484.0,4.0
+MX,Mexico,Sunday,6,14,65,1292846.0,2.92
+MX,Mexico,Sunday,6,15,119,1396160.69,3.77
+MX,Mexico,Sunday,6,16,147,1950162.05,2.52
+MX,Mexico,Sunday,6,17,110,1837958.24,2.79
+MX,Mexico,Sunday,6,18,149,1683255.53,2.71
+MX,Mexico,Sunday,6,19,170,1363673.61,2.73
+MX,Mexico,Sunday,6,20,140,1726708.37,3.19
+MX,Mexico,Sunday,6,21,185,2121267.79,2.22
+MX,Mexico,Sunday,6,22,90,1479510.61,3.54
+MX,Mexico,Sunday,6,23,84,1635366.88,3.04
+RU,Russia,Monday,0,0,9,1857974.67,7.0
+RU,Russia,Monday,0,1,7,341624.71,4.91
+RU,Russia,Monday,0,2,7,513286.43,4.14
+RU,Russia,Monday,0,3,9,3014594.56,5.08
+RU,Russia,Monday,0,4,19,597266.79,4.61
+RU,Russia,Monday,0,5,18,875583.22,4.52
+RU,Russia,Monday,0,6,18,751620.83,3.74
+RU,Russia,Monday,0,7,33,1822032.79,3.78
+RU,Russia,Monday,0,8,100,1893900.42,3.58
+RU,Russia,Monday,0,9,118,1743060.19,5.26
+RU,Russia,Monday,0,10,121,856303.83,4.96
+RU,Russia,Monday,0,11,232,581138.91,4.0
+RU,Russia,Monday,0,12,368,1052678.52,4.94
+RU,Russia,Monday,0,13,257,1809257.89,3.9
+RU,Russia,Monday,0,14,143,932438.5,4.4
+RU,Russia,Monday,0,15,257,697860.36,5.01
+RU,Russia,Monday,0,16,124,1028253.56,4.94
+RU,Russia,Monday,0,17,102,695924.12,4.44
+RU,Russia,Monday,0,18,85,1147219.68,4.55
+RU,Russia,Monday,0,19,52,319066.54,3.42
+RU,Russia,Monday,0,20,48,613035.69,3.72
+RU,Russia,Monday,0,21,38,583939.21,4.15
+RU,Russia,Monday,0,22,17,368732.06,3.59
+RU,Russia,Monday,0,23,8,4103548.25,2.79
+RU,Russia,Tuesday,1,0,5,2475125.8,6.53
+RU,Russia,Tuesday,1,1,4,245389.75,9.21
+RU,Russia,Tuesday,1,2,11,1126712.09,4.52
+RU,Russia,Tuesday,1,3,13,1497690.85,5.3
+RU,Russia,Tuesday,1,4,32,877732.31,9.42
+RU,Russia,Tuesday,1,5,27,1744678.44,6.69
+RU,Russia,Tuesday,1,6,31,792252.23,4.64
+RU,Russia,Tuesday,1,7,37,2327228.62,3.96
+RU,Russia,Tuesday,1,8,96,1328677.57,3.34
+RU,Russia,Tuesday,1,9,159,957158.89,5.99
+RU,Russia,Tuesday,1,10,130,834023.65,5.79
+RU,Russia,Tuesday,1,11,242,743572.21,3.66
+RU,Russia,Tuesday,1,12,457,1040893.92,5.62
+RU,Russia,Tuesday,1,13,178,789346.08,4.53
+RU,Russia,Tuesday,1,14,204,1441592.2,4.54
+RU,Russia,Tuesday,1,15,254,603732.89,5.0
+RU,Russia,Tuesday,1,16,126,715743.2,4.19
+RU,Russia,Tuesday,1,17,124,576953.1,4.21
+RU,Russia,Tuesday,1,18,85,914183.0,4.22
+RU,Russia,Tuesday,1,19,62,1412391.74,3.73
+RU,Russia,Tuesday,1,20,49,811064.78,3.73
+RU,Russia,Tuesday,1,21,50,658859.42,3.4
+RU,Russia,Tuesday,1,22,13,1174923.62,3.8
+RU,Russia,Tuesday,1,23,9,808867.78,3.68
+RU,Russia,Wednesday,2,0,18,943392.61,3.53
+RU,Russia,Wednesday,2,1,19,4993765.84,2.96
+RU,Russia,Wednesday,2,2,9,1942853.78,6.39
+RU,Russia,Wednesday,2,3,13,244275.15,5.95
+RU,Russia,Wednesday,2,4,15,739631.47,5.62
+RU,Russia,Wednesday,2,5,26,1020337.92,4.59
+RU,Russia,Wednesday,2,6,44,1468229.57,3.52
+RU,Russia,Wednesday,2,7,60,3881871.72,4.29
+RU,Russia,Wednesday,2,8,219,1537084.4,4.53
+RU,Russia,Wednesday,2,9,154,1716525.33,4.34
+RU,Russia,Wednesday,2,10,141,1247449.16,5.35
+RU,Russia,Wednesday,2,11,243,1920834.42,4.0
+RU,Russia,Wednesday,2,12,324,1038216.85,4.4
+RU,Russia,Wednesday,2,13,267,2250596.59,4.63
+RU,Russia,Wednesday,2,14,169,1039359.46,4.98
+RU,Russia,Wednesday,2,15,322,755288.19,4.43
+RU,Russia,Wednesday,2,16,143,911177.48,4.56
+RU,Russia,Wednesday,2,17,127,493200.57,4.4
+RU,Russia,Wednesday,2,18,102,420113.39,4.26
+RU,Russia,Wednesday,2,19,67,1396772.57,3.81
+RU,Russia,Wednesday,2,20,52,620391.62,3.42
+RU,Russia,Wednesday,2,21,61,1439385.87,3.13
+RU,Russia,Wednesday,2,22,29,872589.28,3.49
+RU,Russia,Wednesday,2,23,16,807849.25,3.02
+RU,Russia,Thursday,3,0,8,7454415.38,1.69
+RU,Russia,Thursday,3,1,7,884183.43,3.37
+RU,Russia,Thursday,3,2,9,537950.0,6.28
+RU,Russia,Thursday,3,3,10,442718.3,8.63
+RU,Russia,Thursday,3,4,16,327155.81,6.27
+RU,Russia,Thursday,3,5,26,1483173.31,5.32
+RU,Russia,Thursday,3,6,30,1350596.73,4.97
+RU,Russia,Thursday,3,7,63,4156203.13,4.1
+RU,Russia,Thursday,3,8,129,2230545.4,4.43
+RU,Russia,Thursday,3,9,163,2031621.36,5.24
+RU,Russia,Thursday,3,10,242,906390.94,3.99
+RU,Russia,Thursday,3,11,256,709623.45,4.42
+RU,Russia,Thursday,3,12,402,1025540.52,5.47
+RU,Russia,Thursday,3,13,257,1293944.72,4.03
+RU,Russia,Thursday,3,14,144,846516.33,4.36
+RU,Russia,Thursday,3,15,254,564552.49,4.67
+RU,Russia,Thursday,3,16,126,856877.21,4.65
+RU,Russia,Thursday,3,17,87,504729.36,4.22
+RU,Russia,Thursday,3,18,68,843582.62,4.39
+RU,Russia,Thursday,3,19,52,534547.83,3.36
+RU,Russia,Thursday,3,20,65,384214.08,3.0
+RU,Russia,Thursday,3,21,55,252183.15,3.52
+RU,Russia,Thursday,3,22,17,1848288.35,3.07
+RU,Russia,Thursday,3,23,17,2866155.53,2.68
+RU,Russia,Friday,4,0,7,2273367.29,6.89
+RU,Russia,Friday,4,1,7,3081621.71,7.98
+RU,Russia,Friday,4,2,5,1700520.8,6.3
+RU,Russia,Friday,4,3,7,70454.14,6.97
+RU,Russia,Friday,4,4,22,2651387.91,6.11
+RU,Russia,Friday,4,5,23,1406642.96,5.63
+RU,Russia,Friday,4,6,18,1118998.44,6.0
+RU,Russia,Friday,4,7,51,6814658.49,3.73
+RU,Russia,Friday,4,8,115,4603162.72,3.23
+RU,Russia,Friday,4,9,129,1069334.76,4.77
+RU,Russia,Friday,4,10,114,936852.3,4.4
+RU,Russia,Friday,4,11,242,1301899.45,3.85
+RU,Russia,Friday,4,12,338,981360.25,4.35
+RU,Russia,Friday,4,13,165,1704537.53,4.53
+RU,Russia,Friday,4,14,176,799383.12,4.76
+RU,Russia,Friday,4,15,232,774319.2,4.75
+RU,Russia,Friday,4,16,147,600148.86,4.91
+RU,Russia,Friday,4,17,95,1050582.55,4.32
+RU,Russia,Friday,4,18,65,661343.65,4.0
+RU,Russia,Friday,4,19,53,666174.64,3.61
+RU,Russia,Friday,4,20,45,305689.18,3.74
+RU,Russia,Friday,4,21,41,1499804.63,4.08
+RU,Russia,Friday,4,22,14,2243722.07,2.99
+RU,Russia,Friday,4,23,6,1620649.5,4.62
+RU,Russia,Saturday,5,0,11,4362291.09,3.28
+RU,Russia,Saturday,5,1,7,2478301.0,6.97
+RU,Russia,Saturday,5,2,6,3307087.0,2.57
+RU,Russia,Saturday,5,3,10,394211.0,8.71
+RU,Russia,Saturday,5,4,21,896335.19,6.04
+RU,Russia,Saturday,5,5,15,1304668.93,5.0
+RU,Russia,Saturday,5,6,26,1827350.88,3.04
+RU,Russia,Saturday,5,7,51,2343325.78,3.68
+RU,Russia,Saturday,5,8,213,2003622.56,4.72
+RU,Russia,Saturday,5,9,133,952999.12,4.79
+RU,Russia,Saturday,5,10,175,1947062.57,4.21
+RU,Russia,Saturday,5,11,243,1214046.15,3.75
+RU,Russia,Saturday,5,12,278,1222778.52,3.95
+RU,Russia,Saturday,5,13,165,1757393.24,4.26
+RU,Russia,Saturday,5,14,196,964646.77,4.09
+RU,Russia,Saturday,5,15,264,1879254.95,4.36
+RU,Russia,Saturday,5,16,145,2281148.37,4.18
+RU,Russia,Saturday,5,17,71,1145411.27,4.58
+RU,Russia,Saturday,5,18,48,549786.19,4.87
+RU,Russia,Saturday,5,19,108,624747.3,3.4
+RU,Russia,Saturday,5,20,59,1724210.53,3.27
+RU,Russia,Saturday,5,21,62,365668.81,3.2
+RU,Russia,Saturday,5,22,17,595162.18,3.68
+RU,Russia,Saturday,5,23,8,1206251.0,2.71
+RU,Russia,Sunday,6,0,5,972114.2,3.16
+RU,Russia,Sunday,6,1,3,493793.33,6.64
+RU,Russia,Sunday,6,2,12,633707.5,2.96
+RU,Russia,Sunday,6,3,13,1644706.38,4.99
+RU,Russia,Sunday,6,4,21,968585.9,6.34
+RU,Russia,Sunday,6,5,29,2605013.52,3.77
+RU,Russia,Sunday,6,6,32,719426.66,3.42
+RU,Russia,Sunday,6,7,50,841542.5,4.99
+RU,Russia,Sunday,6,8,129,925108.52,4.23
+RU,Russia,Sunday,6,9,144,1718147.09,4.83
+RU,Russia,Sunday,6,10,205,1647887.6,3.78
+RU,Russia,Sunday,6,11,225,791837.55,3.71
+RU,Russia,Sunday,6,12,287,1134521.43,3.98
+RU,Russia,Sunday,6,13,154,1110791.77,4.24
+RU,Russia,Sunday,6,14,129,855121.61,4.63
+RU,Russia,Sunday,6,15,210,617553.27,5.24
+RU,Russia,Sunday,6,16,107,1479873.63,5.1
+RU,Russia,Sunday,6,17,86,865194.07,4.99
+RU,Russia,Sunday,6,18,48,985005.21,4.61
+RU,Russia,Sunday,6,19,34,1010102.44,4.15
+RU,Russia,Sunday,6,20,34,519921.53,4.11
+RU,Russia,Sunday,6,21,38,506695.26,3.91
+RU,Russia,Sunday,6,22,18,1165044.72,3.14
+RU,Russia,Sunday,6,23,7,590553.0,5.31
+US,United States,Monday,0,0,85,1906792.05,4.01
+US,United States,Monday,0,1,60,824774.15,4.22
+US,United States,Monday,0,2,49,346822.18,4.48
+US,United States,Monday,0,3,20,574971.35,4.48
+US,United States,Monday,0,4,10,1050926.9,4.82
+US,United States,Monday,0,5,27,2338204.11,3.97
+US,United States,Monday,0,6,14,481670.71,2.59
+US,United States,Monday,0,7,38,1698021.16,3.25
+US,United States,Monday,0,8,35,12983932.49,2.19
+US,United States,Monday,0,9,44,3056578.68,6.21
+US,United States,Monday,0,10,38,1690500.95,6.02
+US,United States,Monday,0,11,42,885005.79,4.91
+US,United States,Monday,0,12,59,9611486.61,2.89
+US,United States,Monday,0,13,56,1996777.18,3.84
+US,United States,Monday,0,14,133,844846.76,2.79
+US,United States,Monday,0,15,113,2064541.7,5.55
+US,United States,Monday,0,16,185,3162553.17,3.17
+US,United States,Monday,0,17,189,805731.28,4.12
+US,United States,Monday,0,18,189,968717.74,3.89
+US,United States,Monday,0,19,130,2005532.72,3.44
+US,United States,Monday,0,20,231,622465.52,3.21
+US,United States,Monday,0,21,148,1128652.83,3.83
+US,United States,Monday,0,22,167,1480476.64,3.68
+US,United States,Monday,0,23,132,1169445.04,3.79
+US,United States,Tuesday,1,0,80,812471.81,3.58
+US,United States,Tuesday,1,1,101,1595588.33,3.86
+US,United States,Tuesday,1,2,54,2139431.67,4.33
+US,United States,Tuesday,1,3,40,1023389.38,4.57
+US,United States,Tuesday,1,4,67,868274.33,6.1
+US,United States,Tuesday,1,5,78,690603.26,4.2
+US,United States,Tuesday,1,6,14,1460052.71,3.44
+US,United States,Tuesday,1,7,31,2323950.97,2.93
+US,United States,Tuesday,1,8,57,1922934.44,1.77
+US,United States,Tuesday,1,9,65,1532081.57,7.37
+US,United States,Tuesday,1,10,49,2232653.84,7.42
+US,United States,Tuesday,1,11,50,1235643.56,4.02
+US,United States,Tuesday,1,12,132,19049681.63,6.79
+US,United States,Tuesday,1,13,64,1100739.53,3.8
+US,United States,Tuesday,1,14,149,1057666.52,3.2
+US,United States,Tuesday,1,15,131,1359624.72,4.79
+US,United States,Tuesday,1,16,236,1273201.53,3.71
+US,United States,Tuesday,1,17,211,759202.44,3.87
+US,United States,Tuesday,1,18,223,794738.7,3.64
+US,United States,Tuesday,1,19,175,1552949.15,3.52
+US,United States,Tuesday,1,20,254,896423.72,2.88
+US,United States,Tuesday,1,21,160,716767.44,3.89
+US,United States,Tuesday,1,22,175,1136068.42,3.12
+US,United States,Tuesday,1,23,158,5486891.65,3.58
+US,United States,Wednesday,2,0,97,1154376.04,3.63
+US,United States,Wednesday,2,1,74,1900922.27,4.34
+US,United States,Wednesday,2,2,54,901983.98,4.7
+US,United States,Wednesday,2,3,20,3081822.05,5.87
+US,United States,Wednesday,2,4,62,1006563.52,2.56
+US,United States,Wednesday,2,5,58,610772.62,3.05
+US,United States,Wednesday,2,6,25,2743695.16,3.14
+US,United States,Wednesday,2,7,38,4042834.66,3.7
+US,United States,Wednesday,2,8,51,1056028.22,2.6
+US,United States,Wednesday,2,9,45,1905738.36,4.25
+US,United States,Wednesday,2,10,37,3284151.14,6.14
+US,United States,Wednesday,2,11,59,7004992.61,4.07
+US,United States,Wednesday,2,12,80,1098556.94,4.07
+US,United States,Wednesday,2,13,106,1324392.02,5.93
+US,United States,Wednesday,2,14,175,849744.02,3.51
+US,United States,Wednesday,2,15,204,1081249.32,4.09
+US,United States,Wednesday,2,16,246,997414.01,3.13
+US,United States,Wednesday,2,17,229,2373176.3,3.78
+US,United States,Wednesday,2,18,239,782760.0,4.29
+US,United States,Wednesday,2,19,166,1346699.37,3.82
+US,United States,Wednesday,2,20,271,405665.4,3.22
+US,United States,Wednesday,2,21,163,877325.93,3.8
+US,United States,Wednesday,2,22,163,688458.32,4.01
+US,United States,Wednesday,2,23,145,830798.28,3.84
+US,United States,Thursday,3,0,91,954411.68,3.79
+US,United States,Thursday,3,1,89,992977.16,4.53
+US,United States,Thursday,3,2,55,565374.13,5.06
+US,United States,Thursday,3,3,36,1343589.56,5.14
+US,United States,Thursday,3,4,42,11945133.81,3.55
+US,United States,Thursday,3,5,46,577921.76,2.42
+US,United States,Thursday,3,6,9,2089783.44,4.6
+US,United States,Thursday,3,7,42,5490883.5,3.25
+US,United States,Thursday,3,8,73,3129766.51,2.73
+US,United States,Thursday,3,9,57,4927651.75,5.54
+US,United States,Thursday,3,10,67,2086778.84,4.42
+US,United States,Thursday,3,11,41,1484493.54,5.42
+US,United States,Thursday,3,12,69,1846353.07,3.24
+US,United States,Thursday,3,13,61,3351920.97,2.97
+US,United States,Thursday,3,14,135,684343.55,2.79
+US,United States,Thursday,3,15,125,2303513.06,3.04
+US,United States,Thursday,3,16,260,2479382.71,3.19
+US,United States,Thursday,3,17,272,1980125.62,3.53
+US,United States,Thursday,3,18,206,1183698.75,3.85
+US,United States,Thursday,3,19,152,3478505.51,3.05
+US,United States,Thursday,3,20,220,551985.24,3.26
+US,United States,Thursday,3,21,173,1862247.18,3.9
+US,United States,Thursday,3,22,134,1449547.04,3.46
+US,United States,Thursday,3,23,98,705266.23,3.4
+US,United States,Friday,4,0,54,1220718.41,3.68
+US,United States,Friday,4,1,75,1318596.92,4.15
+US,United States,Friday,4,2,50,1010872.1,4.58
+US,United States,Friday,4,3,22,1925551.59,4.67
+US,United States,Friday,4,4,195,2542788.75,2.1
+US,United States,Friday,4,5,101,1147142.69,2.75
+US,United States,Friday,4,6,26,3622888.15,3.6
+US,United States,Friday,4,7,45,6894870.64,3.6
+US,United States,Friday,4,8,55,8912320.38,1.94
+US,United States,Friday,4,9,36,1903173.67,5.65
+US,United States,Friday,4,10,47,2568154.7,3.21
+US,United States,Friday,4,11,52,1622018.79,4.72
+US,United States,Friday,4,12,57,2927695.72,3.39
+US,United States,Friday,4,13,57,3395758.63,3.84
+US,United States,Friday,4,14,133,856449.38,3.12
+US,United States,Friday,4,15,126,2180290.75,4.61
+US,United States,Friday,4,16,233,1133358.27,3.37
+US,United States,Friday,4,17,220,1013168.2,3.91
+US,United States,Friday,4,18,206,1032574.72,3.63
+US,United States,Friday,4,19,130,1296605.61,3.03
+US,United States,Friday,4,20,176,700766.07,2.87
+US,United States,Friday,4,21,136,872149.83,3.28
+US,United States,Friday,4,22,143,908360.79,3.4
+US,United States,Friday,4,23,115,797763.47,3.79
+US,United States,Saturday,5,0,78,1639112.51,3.66
+US,United States,Saturday,5,1,76,1402146.93,4.24
+US,United States,Saturday,5,2,46,1288822.11,4.11
+US,United States,Saturday,5,3,24,1256861.62,5.3
+US,United States,Saturday,5,4,14,1107513.29,5.45
+US,United States,Saturday,5,5,31,776371.65,2.32
+US,United States,Saturday,5,6,20,2000521.65,3.04
+US,United States,Saturday,5,7,27,3248161.04,4.37
+US,United States,Saturday,5,8,49,4326580.12,3.59
+US,United States,Saturday,5,9,34,1963157.91,4.8
+US,United States,Saturday,5,10,31,2207374.26,5.71
+US,United States,Saturday,5,11,33,1612527.79,3.17
+US,United States,Saturday,5,12,44,3220332.2,3.48
+US,United States,Saturday,5,13,57,3999508.79,3.13
+US,United States,Saturday,5,14,116,1395689.02,2.25
+US,United States,Saturday,5,15,102,3725194.61,3.89
+US,United States,Saturday,5,16,186,2412522.53,3.15
+US,United States,Saturday,5,17,145,1120243.01,3.84
+US,United States,Saturday,5,18,154,817567.99,3.66
+US,United States,Saturday,5,19,110,1016732.02,3.11
+US,United States,Saturday,5,20,195,1337836.83,2.54
+US,United States,Saturday,5,21,124,1388062.54,3.2
+US,United States,Saturday,5,22,126,1565368.73,2.72
+US,United States,Saturday,5,23,91,941955.44,3.5
+US,United States,Sunday,6,0,42,1557605.57,2.77
+US,United States,Sunday,6,1,56,1074889.71,4.3
+US,United States,Sunday,6,2,49,1132344.27,3.66
+US,United States,Sunday,6,3,26,2230653.85,4.81
+US,United States,Sunday,6,4,28,1753688.75,5.83
+US,United States,Sunday,6,5,33,1344917.03,2.33
+US,United States,Sunday,6,6,16,2706613.19,4.56
+US,United States,Sunday,6,7,22,306499.82,6.38
+US,United States,Sunday,6,8,39,1937074.28,3.64
+US,United States,Sunday,6,9,45,3448760.78,4.91
+US,United States,Sunday,6,10,36,2633089.03,5.1
+US,United States,Sunday,6,11,35,1716587.69,2.94
+US,United States,Sunday,6,12,39,1324338.79,4.0
+US,United States,Sunday,6,13,56,1205054.23,3.48
+US,United States,Sunday,6,14,86,759671.0,2.8
+US,United States,Sunday,6,15,56,950126.04,6.56
+US,United States,Sunday,6,16,140,1348409.55,3.26
+US,United States,Sunday,6,17,133,1137539.68,3.71
+US,United States,Sunday,6,18,156,961919.18,3.81
+US,United States,Sunday,6,19,87,1814211.45,2.99
+US,United States,Sunday,6,20,169,779127.68,2.8
+US,United States,Sunday,6,21,112,1060326.75,3.39
+US,United States,Sunday,6,22,135,1025316.6,3.32
+US,United States,Sunday,6,23,93,1007828.56,3.23
