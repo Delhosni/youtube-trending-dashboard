@@ -56,8 +56,8 @@ CATEGORY_COLORS = {
 }
 
 DEFAULT = "United States"
-H_TOP   = 300   # top row height (map + categories)
-H_BOT   = 260   # bottom row height (heatmap + scatter + trending)
+H_TOP   = 265   # chart height for map + categories
+H_BOT   = 255   # chart height for heatmap + scatter + trending
 
 # HELPERS
 
@@ -228,7 +228,7 @@ def fig_heatmap(country, metric):
             automargin=True,
             ticklabelstandoff=12,
         ),
-        margin=dict(l=112, r=10, t=25, b=70),
+        margin=dict(l=100, r=8, t=22, b=46),
         paper_bgcolor="white",
         font=dict(family="Segoe UI"),
     )
@@ -636,17 +636,49 @@ _init_trend    = fig_trending(_init_videos)
 app = Dash(__name__, suppress_callback_exceptions=True)
 app.title = "The DNA of a viral video & Cultural Preferences Analysis"
 
+app.index_string = """
+<!DOCTYPE html>
+<html>
+    <head>
+        {%metas%}
+        <title>{%title%}</title>
+        {%favicon%}
+        {%css%}
+        <style>
+            html, body, #react-entry-point, #_dash-app-content {
+                margin: 0 !important;
+                width: 100% !important;
+                height: 100% !important;
+                overflow: hidden !important;
+            }
+            * { box-sizing: border-box; }
+        </style>
+    </head>
+    <body>
+        {%app_entry%}
+        <footer>
+            {%config%}
+            {%scripts%}
+            {%renderer%}
+        </footer>
+    </body>
+</html>
+"""
+
 CARD = {
     "background":   "white",
     "borderRadius": "8px",
-    "padding":      "8px 10px 4px 10px",
+    "padding":      "5px 8px 3px 8px",
     "boxShadow":    "0 1px 6px rgba(0,0,0,0.09)",
     "overflow":     "hidden",
+    "boxSizing":    "border-box",
+    "minHeight":    "0",
 }
 LBL = {
-    "fontSize": "11px", "fontWeight": "700",
+    "fontSize": "10px", "fontWeight": "700",
     "color": "#1a3a5c", "fontFamily": "Segoe UI,sans-serif",
-    "marginBottom": "2px", "display": "block",
+    "marginBottom": "1px", "display": "block",
+    "lineHeight": "1.05",
 }
 G = {"displayModeBar": False}
 
@@ -656,12 +688,12 @@ COUNTRY_OPTIONS = [
 ]
 
 HELP_CHIP = {
-    "fontSize": "10px",
+    "fontSize": "9px",
     "color": "#dbeafe",
     "background": "rgba(255,255,255,0.10)",
     "border": "1px solid rgba(255,255,255,0.18)",
     "borderRadius": "999px",
-    "padding": "4px 8px",
+    "padding": "3px 7px",
     "whiteSpace": "nowrap",
 }
 
@@ -677,10 +709,10 @@ FILTER_BADGE = {
 }
 
 RESET_BTN_BASE = {
-    "marginLeft": "8px",
-    "fontSize": "11px",
+    "marginLeft": "6px",
+    "fontSize": "10px",
     "fontWeight": "700",
-    "padding": "5px 12px",
+    "padding": "4px 10px",
     "borderRadius": "999px",
     "border": "1px solid rgba(255,255,255,0.45)",
     "background": "rgba(255,255,255,0.14)",
@@ -691,7 +723,7 @@ RESET_BTN_HIDDEN = {**RESET_BTN_BASE, "display": "none"}
 RESET_BTN_SHOWN = {**RESET_BTN_BASE, "display": "inline-block"}
 
 BACK_BTN_HIDDEN = {
-    "fontSize":"10px","fontWeight":"700","padding":"4px 10px",
+    "fontSize":"9px","fontWeight":"700","padding":"3px 8px",
     "borderRadius":"999px","cursor":"pointer",
     "border":"1px solid #4a7ab5",
     "background":"#EBF3FB","color":"#1a3a5c",
@@ -702,40 +734,46 @@ BACK_BTN_SHOWN = {**BACK_BTN_HIDDEN, "display":"inline-block"}
 KPI_CARD = {
     "background": "white",
     "borderRadius": "8px",
-    "padding": "8px 12px",
+    "padding": "5px 10px",
     "boxShadow": "0 1px 6px rgba(0,0,0,0.09)",
     "textAlign": "center",
-    "minHeight": "52px",
+    "minHeight": "42px",
     "display": "flex",
     "flexDirection": "column",
     "justifyContent": "center",
+    "boxSizing": "border-box",
 }
 KPI_LABEL = {
-    "fontSize": "10px",
+    "fontSize": "9px",
     "color": "#6b7280",
     "fontWeight": "600",
-    "marginBottom": "2px",
+    "marginBottom": "1px",
 }
 KPI_VALUE = {
-    "fontSize": "16px",
+    "fontSize": "14px",
     "color": "#0f2744",
     "fontWeight": "800",
-    "lineHeight": "1.1",
+    "lineHeight": "1.05",
 }
 
 app.layout = html.Div(style={
     "fontFamily":      "Segoe UI, Arial, sans-serif",
     "backgroundColor": "#eef1f5",
-    "width":           "100%",
+    "position":        "fixed",
+    "inset":           "0",
+    "width":           "100vw",
     "maxWidth":        "100vw",
     "height":          "100vh",
+    "maxHeight":       "100vh",
     "display":         "grid",
-    "gridTemplateRows": f"54px 74px 44px {H_TOP}px {H_BOT}px 34px",
-    "gap":             "6px",
+    "gridTemplateRows": f"42px 52px 26px {H_TOP + 26}px {H_BOT + 24}px 18px",
+    "gap":             "4px",
     "padding":         "6px",
     "boxSizing":       "border-box",
     "overflow":        "hidden",
     "overflowX":       "hidden",
+    "overflowY":       "hidden",
+    "overscrollBehavior":"none",
 }, children=[
 
     dcc.Store(id="selected-country", data=DEFAULT),
@@ -747,15 +785,15 @@ app.layout = html.Div(style={
         "display":"flex",
         "alignItems":"center",
         "justifyContent":"space-between",
-        "padding":"0 14px",
-        "gap":"14px",
+        "padding":"0 12px",
+        "gap":"10px",
     }, children=[
         html.Div([
             html.Div("The DNA of a viral video & Cultural Preferences Analysis",
-                     style={"color":"white","fontWeight":"800","fontSize":"15px","lineHeight":"1.1"}),
-            html.Div("Global YouTube trending patterns in views, engagement, publishing time, and categories",
-                     style={"color":"#cbd5e1","fontSize":"10px","marginTop":"2px"}),
-        ], style={"minWidth":"260px"}),
+                     style={"color":"white","fontWeight":"800","fontSize":"13px","lineHeight":"1.05"}),
+            html.Div("Views, engagement, publishing time, and category patterns",
+                     style={"color":"#cbd5e1","fontSize":"9px","marginTop":"1px"}),
+        ], style={"minWidth":"250px"}),
 
         html.Div(style={
             "display":"flex",
@@ -795,26 +833,30 @@ app.layout = html.Div(style={
     html.Div(style={
         "background": "white",
         "borderRadius": "8px",
-        "padding": "8px 12px",
+        "padding": "5px 10px",
         "boxShadow": "0 1px 6px rgba(0,0,0,0.06)",
-        "fontSize": "11px",
+        "fontSize": "10px",
         "color": "#334155",
         "display": "flex",
         "alignItems": "center",
         "justifyContent": "space-between",
-        "gap": "12px",
+        "gap": "8px",
+        "lineHeight": "1.05",
+        "overflow": "hidden",
+        "boxSizing": "border-box",
     }, children=[
         html.Div([
-            html.B("How to read this dashboard: "),
+            html.B("Guide: "),
             "Click a country on the map to filter the dashboard. Click a category to explore its top channels, then click a channel to see its country view mix."
         ]),
-        html.Div("Tip: Reset returns every panel to the United States view.",
-                 style={"color":"#64748b", "fontSize":"10px", "whiteSpace":"nowrap"}),
+        html.Div("Reset = United States",
+                 style={"color":"#64748b", "fontSize":"9px", "whiteSpace":"nowrap"}),
     ]),
 
     # ── ROW 1 : MAP (left)  +  TOP CATEGORIES (right) ────────
     html.Div(style={
         "display":"grid","gridTemplateColumns":"60% 40%","gap":"6px",
+        "minHeight":"0", "overflow":"hidden",
     }, children=[
 
         html.Div(style=CARD, children=[
@@ -839,6 +881,7 @@ app.layout = html.Div(style={
         "display":"grid",
         "gridTemplateColumns":"1fr 1fr 1fr",
         "gap":"6px",
+        "minHeight":"0", "overflow":"hidden",
     }, children=[
 
         # LEFT : heatmap OR channels
@@ -879,10 +922,10 @@ app.layout = html.Div(style={
             html.Div(
                 "Engagement rate = (likes + comments) / views × 100",
                 style={
-                    "fontSize": "9px",
+                    "fontSize": "8px",
                     "color": "#6b7280",
                     "textAlign": "center",
-                    "marginTop": "-2px",
+                    "marginTop": "-4px",
                 },
             ),
         ]),
@@ -890,7 +933,7 @@ app.layout = html.Div(style={
         # RIGHT : trending videos
         html.Div(style=CARD, children=[
             html.Span(id="trend-title",
-                      children=f" Top 9 Trending Videos by Views — {DEFAULT}",
+                      children=f" Top Trending Videos by Views — {DEFAULT}",
                       style=LBL),
             dcc.Graph(id="trend-bar", figure=_init_trend, config=G,
                       style={"height":f"{H_BOT}px"}),
@@ -904,11 +947,12 @@ app.layout = html.Div(style={
         id="footer-note",
         children="Data note: Engagement rate = (likes + comments) / views × 100.",
         style={
-            "fontSize": "10px",
+            "fontSize": "9px",
             "color": "#64748b",
             "textAlign": "center",
-            "padding": "6px 8px",
-            "lineHeight": "1.25",
+            "padding": "3px 8px",
+            "lineHeight": "1.1",
+            "overflow": "hidden",
         },
     ),
 
@@ -1066,7 +1110,7 @@ def cb_trending(country, bar_click, cur_vid):
     triggered = ctx.triggered_id
     country = selected_or_default(country)
     videos  = get_videos(country)
-    title   = f" Top 9 Trending Videos by Views — {country}"
+    title   = f" Top Trending Videos by Views — {country}"
 
     if triggered == "trend-bar" and bar_click:
         try:
