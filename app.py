@@ -297,19 +297,20 @@ def fig_donut(channel):
         annotations=[dict(
             text=f"<b>{short}</b>",
             x=0.5, y=0.5,
-            font=dict(size=9, family="Segoe UI"),
+            font=dict(size=10, family="Segoe UI"),
             showarrow=False,
         )],
         showlegend=False,
-        margin=dict(l=10, r=10, t=30, b=10),
+        margin=dict(l=60, r=60, t=30, b=60),
         paper_bgcolor="white",
         font=dict(family="Segoe UI"),
     )
     fig.update_traces(
-        domain=dict(x=[0.05, 0.95], y=[0.05, 0.95]),
+        domain=dict(x=[0, 1], y=[0, 1]),
         textposition="outside",
         textinfo="label+percent",
         textfont=dict(size=8),
+        automargin=True,
     )
     return fig
 
