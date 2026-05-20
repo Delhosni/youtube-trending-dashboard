@@ -4,9 +4,9 @@ import plotly.express as px
 import plotly.graph_objects as go
 from dash import Dash, dcc, html, Input, Output, State, ctx
 
-# ══════════════════════════════════════════════════════════════
+
 # LOAD DATA
-# ══════════════════════════════════════════════════════════════
+
 country_stats    = pd.read_csv("data/processed/country_stats.csv")
 top_cats_country = pd.read_csv("data/processed/top_categories_full.csv")
 day_hour_data    = pd.read_csv("data/processed/day_hour_heatmap.csv")
@@ -20,9 +20,9 @@ for _df in [country_stats, top_cats_country, day_hour_data,clean_df,top_ch_categ
 
 scatter_df["is_viral"] = scatter_df["is_viral"].astype(bool)
 
-# ══════════════════════════════════════════════════════════════
+
 # CONSTANTS
-# ══════════════════════════════════════════════════════════════
+
 DAY_ORDER = ["Monday","Tuesday","Wednesday",
              "Thursday","Friday","Saturday","Sunday"]
 
@@ -34,7 +34,7 @@ COUNTRY_ISO = {
 }
 ISO_COUNTRY = {v: k for k, v in COUNTRY_ISO.items()}
 
-# Qualitative palette — no red, colorblind-safe
+# Qualitative palette (no red, colorblind-safe)
 # Reference: ColorBrewer 2.0
 CATEGORY_COLORS = {
     "Gaming":                "#1f77b4",  # steel blue
@@ -59,9 +59,8 @@ DEFAULT = "United States"
 H_TOP   = 300   # top row height (map + categories)
 H_BOT   = 260   # bottom row height (heatmap + scatter + trending)
 
-# ══════════════════════════════════════════════════════════════
 # HELPERS
-# ══════════════════════════════════════════════════════════════
+
 def get_country(click_data):
     if not click_data:
         return None
@@ -76,6 +75,13 @@ def get_country(click_data):
     except Exception:
         pass
     return None
+
+
+def selected_or_default(country):
+    """Return a valid dashboard country, falling back to the default."""
+    if country in COUNTRY_ISO:
+        return country
+    return DEFAULT
 
 
 def fig_map(selected=None):
@@ -149,6 +155,11 @@ def fig_categories(country):
         labels={val:"Views","category_name":"Category",
                 **({"avg_engagement":"Eng%"} if eng else {})},
     )
+    fig.update_traces(
+        texttemplate="%{x:.2s}",
+        textposition="outside",
+        cliponaxis=False,
+    )
     if eng:
         fig.update_layout(
             coloraxis_colorbar=dict(
@@ -158,7 +169,7 @@ def fig_categories(country):
         )
     fig.update_layout(
         autosize=False, height=H_TOP,
-        margin=dict(l=4, r=4, t=4, b=4),
+        margin=dict(l=4, r=35, t=4, b=4),
         paper_bgcolor="white", plot_bgcolor="white",
         font=dict(family="Segoe UI", size=10),
         xaxis=dict(title="Views", gridcolor="#ececec",
@@ -211,8 +222,13 @@ def fig_heatmap(country, metric):
         xaxis=dict(title="Hour (UTC)", tickmode="linear",
                    dtick=2, tickfont=dict(size=7),
                    tickangle=-45),
-        yaxis=dict(title="", tickfont=dict(size=9)),
-        margin=dict(l=90, r=10, t=25, b=70),
+        yaxis=dict(
+            title="",
+            tickfont=dict(size=9),
+            automargin=True,
+            ticklabelstandoff=12,
+        ),
+        margin=dict(l=112, r=10, t=25, b=70),
         paper_bgcolor="white",
         font=dict(family="Segoe UI"),
     )
@@ -257,13 +273,21 @@ def fig_donut(channel):
                             showarrow=False, font=dict(size=14))]
         ))
 
-    # Aggregate total views per country
+    # Aggregate total views per country and keep the donut readable.
+    # Small shares are grouped as "Other" so labels do not become crowded.
     country_views = (
         df.groupby("country_name")["views"]
         .sum()
         .reset_index()
         .sort_values("views", ascending=False)
     )
+    if len(country_views) > 5:
+        top5 = country_views.head(5).copy()
+        other = pd.DataFrame({
+            "country_name": ["Other"],
+            "views": [country_views.iloc[5:]["views"].sum()],
+        })
+        country_views = pd.concat([top5, other], ignore_index=True)
 
     # Country colours (distinct from category colours)
     COUNTRY_COLORS = [
@@ -291,7 +315,7 @@ def fig_donut(channel):
     fig.update_layout(
         autosize=False, height=H_BOT,
         title=dict(
-            text=f"Views by Country — {short}",
+            text=f"Top country view mix — {short}",
             font=dict(size=9), x=0.5,
         ),
         annotations=[dict(
@@ -336,7 +360,7 @@ def fig_scatter(country=None):
 
     fig = go.Figure()
 
-    # All videos are viral — circles coloured by category
+    # All videos are viral (circles coloured by category)
     for cat in df["category_name"].unique():
         sub = df[df["category_name"] == cat]
         fig.add_trace(go.Scatter(
@@ -414,7 +438,7 @@ def get_videos(country=None):
         df = df[df["country_name"] == country]
     df = (df.sort_values("views", ascending=False)
             .drop_duplicates(subset="video_id", keep="first")
-            .head(15))
+            .head(9))
     result = []
     for _, row in df.iterrows():
         result.append({
@@ -435,7 +459,7 @@ def fig_trending(videos, selected_id=None):
         return go.Figure(layout=dict(height=H_BOT,
                                      paper_bgcolor="white"))
     vids   = list(reversed(videos))
-    labels = [textwrap.shorten(v["title"], width=32, placeholder="…")
+    labels = [textwrap.shorten(v["title"], width=26, placeholder="…")
               for v in vids]
     opacs  = [0.2 if (selected_id and v["id"] != selected_id) else 1.0
               for v in vids]
@@ -501,9 +525,106 @@ def make_detail(video):
     ], style={"marginTop": "2px", "lineHeight": "2"})
 
 
-# ══════════════════════════════════════════════════════════════
+def fmt_compact(x):
+    """Format large numbers for KPI cards."""
+    if pd.isna(x):
+        return "—"
+    x = float(x)
+    if abs(x) >= 1e9:
+        return f"{x/1e9:.2f}B"
+    if abs(x) >= 1e6:
+        return f"{x/1e6:.2f}M"
+    if abs(x) >= 1e3:
+        return f"{x/1e3:.1f}K"
+    return f"{x:,.0f}"
+
+
+def make_kpis(country=None):
+    """Summary cards that update with the selected country."""
+    df = clean_df.copy()
+    selected_country = country or DEFAULT
+
+    if selected_country:
+        df = df[df["country_name"] == selected_country]
+
+    if df.empty:
+        values = [
+            ("Trending Videos", "—"),
+            ("Total Views", "—"),
+            ("Average Views", "—"),
+            ("Leading Category", "—"),
+            ("Engagement Rate", "—"),
+        ]
+    else:
+        total_videos = df["video_id"].nunique() if "video_id" in df.columns else len(df)
+        total_views = df["views"].sum()
+        avg_views = df["views"].mean()
+
+        if {"likes", "comments", "views"}.issubset(df.columns):
+            eng = ((df["likes"] + df["comments"]) / df["views"].replace(0, pd.NA) * 100).mean()
+        elif "engagement_rate" in df.columns:
+            eng = df["engagement_rate"].mean()
+        else:
+            eng = pd.NA
+
+        if "category_name" in df.columns and "views" in df.columns:
+            top_cat = (
+                df.groupby("category_name")["views"]
+                .sum()
+                .sort_values(ascending=False)
+                .index[0]
+            )
+        else:
+            top_cat = "—"
+
+        values = [
+            ("Trending Videos", f"{total_videos:,.0f}"),
+            ("Total Views", fmt_compact(total_views)),
+            ("Average Views", fmt_compact(avg_views)),
+            ("Leading Category", textwrap.shorten(str(top_cat), width=18, placeholder="…")),
+            ("Engagement Rate", "—" if pd.isna(eng) else f"{eng:.2f}%"),
+        ]
+
+    return [
+        html.Div(style=KPI_CARD, children=[
+            html.Div(label, style=KPI_LABEL),
+            html.Div(value, style=KPI_VALUE),
+        ])
+        for label, value in values
+    ]
+
+
+def make_footer_note(country=None):
+    """Create a compact dynamic insight for the selected country."""
+    country = selected_or_default(country)
+    df = clean_df[clean_df["country_name"] == country].copy()
+
+    if df.empty or "category_name" not in df.columns:
+        insight = f"Main insight: No detailed records available for {country}."
+    else:
+        top_views_cat = (
+            df.groupby("category_name")["views"]
+            .sum()
+            .sort_values(ascending=False)
+            .index[0]
+        )
+        if {"likes", "comments", "views"}.issubset(df.columns):
+            tmp = df.copy()
+            tmp["eng_rate_calc"] = (tmp["likes"] + tmp["comments"]) / tmp["views"].replace(0, pd.NA) * 100
+            eng_by_cat = tmp.groupby("category_name")["eng_rate_calc"].mean().dropna()
+            if not eng_by_cat.empty:
+                top_eng_cat = eng_by_cat.sort_values(ascending=False).index[0]
+                insight = f"Main insight: In {country}, {top_views_cat} leads total views, while {top_eng_cat} shows the strongest average engagement."
+            else:
+                insight = f"Main insight: In {country}, {top_views_cat} leads total views."
+        else:
+            insight = f"Main insight: In {country}, {top_views_cat} leads total views."
+
+    data_note = "Data note: Engagement rate = (likes + comments) / views × 100."
+    return f"{insight}  {data_note}"
+
+
 # PRE-BUILD INITIAL FIGURES
-# ══════════════════════════════════════════════════════════════
 _init_videos   = get_videos(DEFAULT)
 _init_map      = fig_map()
 _init_cats     = fig_categories(DEFAULT)
@@ -511,11 +632,9 @@ _init_heatmap  = fig_heatmap(DEFAULT, "avg_views")
 _init_scatter  = fig_scatter(DEFAULT)
 _init_trend    = fig_trending(_init_videos)
 
-# ══════════════════════════════════════════════════════════════
 # APP
-# ══════════════════════════════════════════════════════════════
 app = Dash(__name__, suppress_callback_exceptions=True)
-app.title = "YouTube Trending 2026"
+app.title = "The DNA of a viral video & Cultural Preferences Analysis"
 
 CARD = {
     "background":   "white",
@@ -531,42 +650,166 @@ LBL = {
 }
 G = {"displayModeBar": False}
 
+COUNTRY_OPTIONS = [
+    {"label": c, "value": c}
+    for c in sorted(country_stats["country_name"].dropna().unique())
+]
+
+HELP_CHIP = {
+    "fontSize": "10px",
+    "color": "#dbeafe",
+    "background": "rgba(255,255,255,0.10)",
+    "border": "1px solid rgba(255,255,255,0.18)",
+    "borderRadius": "999px",
+    "padding": "4px 8px",
+    "whiteSpace": "nowrap",
+}
+
+FILTER_BADGE = {
+    "fontSize": "11px",
+    "fontWeight": "700",
+    "color": "white",
+    "background": "rgba(255,255,255,0.14)",
+    "border": "1px solid rgba(255,255,255,0.25)",
+    "borderRadius": "999px",
+    "padding": "5px 10px",
+    "whiteSpace": "nowrap",
+}
+
+RESET_BTN_BASE = {
+    "marginLeft": "8px",
+    "fontSize": "11px",
+    "fontWeight": "700",
+    "padding": "5px 12px",
+    "borderRadius": "999px",
+    "border": "1px solid rgba(255,255,255,0.45)",
+    "background": "rgba(255,255,255,0.14)",
+    "color": "white",
+    "cursor": "pointer",
+}
+RESET_BTN_HIDDEN = {**RESET_BTN_BASE, "display": "none"}
+RESET_BTN_SHOWN = {**RESET_BTN_BASE, "display": "inline-block"}
+
+BACK_BTN_HIDDEN = {
+    "fontSize":"10px","fontWeight":"700","padding":"4px 10px",
+    "borderRadius":"999px","cursor":"pointer",
+    "border":"1px solid #4a7ab5",
+    "background":"#EBF3FB","color":"#1a3a5c",
+    "display":"none",
+}
+BACK_BTN_SHOWN = {**BACK_BTN_HIDDEN, "display":"inline-block"}
+
+KPI_CARD = {
+    "background": "white",
+    "borderRadius": "8px",
+    "padding": "8px 12px",
+    "boxShadow": "0 1px 6px rgba(0,0,0,0.09)",
+    "textAlign": "center",
+    "minHeight": "52px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "center",
+}
+KPI_LABEL = {
+    "fontSize": "10px",
+    "color": "#6b7280",
+    "fontWeight": "600",
+    "marginBottom": "2px",
+}
+KPI_VALUE = {
+    "fontSize": "16px",
+    "color": "#0f2744",
+    "fontWeight": "800",
+    "lineHeight": "1.1",
+}
+
 app.layout = html.Div(style={
     "fontFamily":      "Segoe UI, Arial, sans-serif",
     "backgroundColor": "#eef1f5",
-    "width":           "100vw",
+    "width":           "100%",
+    "maxWidth":        "100vw",
     "height":          "100vh",
     "display":         "grid",
-    "gridTemplateRows": f"38px {H_TOP}px {H_BOT}px",
+    "gridTemplateRows": f"54px 74px 44px {H_TOP}px {H_BOT}px 34px",
     "gap":             "6px",
     "padding":         "6px",
     "boxSizing":       "border-box",
     "overflow":        "hidden",
+    "overflowX":       "hidden",
 }, children=[
+
+    dcc.Store(id="selected-country", data=DEFAULT),
 
     # ── HEADER ────────────────────────────────────────────────
     html.Div(style={
         "background":"linear-gradient(90deg,#0f2744,#1a4a7a)",
-        "borderRadius":"8px","display":"flex",
-        "alignItems":"center","justifyContent":"space-between",
+        "borderRadius":"8px",
+        "display":"flex",
+        "alignItems":"center",
+        "justifyContent":"space-between",
         "padding":"0 14px",
+        "gap":"14px",
     }, children=[
         html.Div([
-            html.Span(
-                "YouTube Trending 2026  · The DNA of Viral Videos & Global Cultural Preferences",
-                style={"color":"white","fontWeight":"bold","fontSize":"13px"}),
+            html.Div("The DNA of a viral video & Cultural Preferences Analysis",
+                     style={"color":"white","fontWeight":"800","fontSize":"15px","lineHeight":"1.1"}),
+            html.Div("Global YouTube trending patterns in views, engagement, publishing time, and categories",
+                     style={"color":"#cbd5e1","fontSize":"10px","marginTop":"2px"}),
+        ], style={"minWidth":"260px"}),
+
+        html.Div(style={
+            "display":"flex",
+            "gap":"6px",
+            "alignItems":"center",
+            "justifyContent":"center",
+            "flex":"1",
+        }, children=[
+            html.Span("Click map = filter country", style=HELP_CHIP),
+            html.Span("Click category = show channels", style=HELP_CHIP),
+            html.Span("Click channel = country mix", style=HELP_CHIP),
         ]),
+
+        html.Div(style={
+            "display":"flex",
+            "alignItems":"center",
+            "gap":"8px",
+            "minWidth":"180px",
+            "justifyContent":"flex-end",
+        }, children=[
+            html.Button("Reset to United States", id="reset-btn", n_clicks=0, style=RESET_BTN_HIDDEN),
+        ]),
+    ]),
+
+    # ── KPI ROW ───────────────────────────────────────────────
+    html.Div(
+        id="kpi-row",
+        style={
+            "display": "grid",
+            "gridTemplateColumns": "repeat(5, 1fr)",
+            "gap": "6px",
+        },
+        children=make_kpis(DEFAULT),
+    ),
+
+    # ── HOW TO USE ────────────────────────────────────────────
+    html.Div(style={
+        "background": "white",
+        "borderRadius": "8px",
+        "padding": "8px 12px",
+        "boxShadow": "0 1px 6px rgba(0,0,0,0.06)",
+        "fontSize": "11px",
+        "color": "#334155",
+        "display": "flex",
+        "alignItems": "center",
+        "justifyContent": "space-between",
+        "gap": "12px",
+    }, children=[
         html.Div([
-            html.Span(
-                " Click a country to filter · Click a category to explore its channels",
-                style={"color":"#90aac8","fontSize":"10px","fontStyle":"italic"}),
-            html.Button("🔄 Reset", id="reset-btn", n_clicks=0, style={
-                "marginLeft":"10px","fontSize":"9px",
-                "padding":"2px 8px","borderRadius":"5px",
-                "border":"1px solid #4a7ab5","background":"transparent",
-                "color":"#90aac8","cursor":"pointer","display":"none",
-            }),
+            html.B("How to read this dashboard: "),
+            "Click a country on the map to filter the dashboard. Click a category to explore its top channels, then click a channel to see its country view mix."
         ]),
+        html.Div("Tip: Reset returns every panel to the United States view.",
+                 style={"color":"#64748b", "fontSize":"10px", "whiteSpace":"nowrap"}),
     ]),
 
     # ── ROW 1 : MAP (left)  +  TOP CATEGORIES (right) ────────
@@ -575,7 +818,8 @@ app.layout = html.Div(style={
     }, children=[
 
         html.Div(style=CARD, children=[
-            html.Span(" Global Overview",
+            html.Span(id="map-title",
+                      children=f"Country filter map — {DEFAULT}",
                       style=LBL),
             dcc.Graph(id="world-map", figure=_init_map, config=G,
                       style={"height":f"{H_TOP}px"}),
@@ -583,7 +827,7 @@ app.layout = html.Div(style={
 
         html.Div(style=CARD, children=[
             html.Span(id="cat-title",
-                      children=f"Top Categories — {DEFAULT}",
+                      children=f"Most viewed categories — {DEFAULT}",
                       style=LBL),
             dcc.Graph(id="cat-chart", figure=_init_cats, config=G,
                       style={"height":f"{H_TOP}px"}),
@@ -604,9 +848,9 @@ app.layout = html.Div(style={
                 "alignItems":"center","marginBottom":"2px",
             }, children=[
                 html.Span(id="left-title",
-                          children=" Best Day & Hour ",
+                          children=" When do trending videos perform best? ",
                           style=LBL),
-                html.Div(id="metric-dd-wrapper", children=[
+                html.Div(id="metric-dd-wrapper", style={"display":"none"}, children=[
                     dcc.Dropdown(
                         id="metric-dd",
                         options=[
@@ -618,13 +862,7 @@ app.layout = html.Div(style={
                         style={"fontSize":"9px","width":"120px"},
                     ),
                 ]),
-                html.Button("← Back", id="back-btn", n_clicks=0, style={
-                    "fontSize":"9px","padding":"2px 8px",
-                    "borderRadius":"5px","cursor":"pointer",
-                    "border":"1px solid #4a7ab5",
-                    "background":"#EBF3FB","color":"#1a3a5c",
-                    "display":"none",
-                }),
+                html.Button("← Back to publishing time", id="back-btn", n_clicks=0, style=BACK_BTN_HIDDEN),
             ]),
             dcc.Graph(id="left-chart", figure=_init_heatmap, config=G,
                       style={"height":f"{H_BOT}px"}),
@@ -634,16 +872,25 @@ app.layout = html.Div(style={
         # MIDDLE : scatterplot
         html.Div(style=CARD, children=[
             html.Span(id="scatter-title",
-                      children=" Views vs Engagement — Viral Videos",
+                      children=" Do viral videos also get strong engagement?",
                       style=LBL),
             dcc.Graph(id="scatter", figure=_init_scatter, config=G,
-                      style={"height":f"{H_BOT}px"}),
+                      style={"height":f"{H_BOT-14}px"}),
+            html.Div(
+                "Engagement rate = (likes + comments) / views × 100",
+                style={
+                    "fontSize": "9px",
+                    "color": "#6b7280",
+                    "textAlign": "center",
+                    "marginTop": "-2px",
+                },
+            ),
         ]),
 
         # RIGHT : trending videos
         html.Div(style=CARD, children=[
             html.Span(id="trend-title",
-                      children=f" Top 15 Trending Videos — {DEFAULT}",
+                      children=f" Top 9 Trending Videos by Views — {DEFAULT}",
                       style=LBL),
             dcc.Graph(id="trend-bar", figure=_init_trend, config=G,
                       style={"height":f"{H_BOT}px"}),
@@ -652,49 +899,86 @@ app.layout = html.Div(style={
         ]),
     ]),
 
+    # ── FOOTER ────────────────────────────────────────────────
+    html.Div(
+        id="footer-note",
+        children="Data note: Engagement rate = (likes + comments) / views × 100.",
+        style={
+            "fontSize": "10px",
+            "color": "#64748b",
+            "textAlign": "center",
+            "padding": "6px 8px",
+            "lineHeight": "1.25",
+        },
+    ),
+
 ])
 
 
-# ══════════════════════════════════════════════════════════════
-# CALLBACKS
-# ══════════════════════════════════════════════════════════════
 
-# 1. World Map
+# CALLBACKS
+
+# 0. Shared country state + map highlight + header controls
 @app.callback(
-    Output("world-map","figure"),
-    Output("reset-btn","style"),
-    Input("world-map","clickData"),
-    Input("reset-btn","n_clicks"),
+    Output("selected-country", "data"),
+    Output("world-map", "figure"),
+    Output("map-title", "children"),
+    Output("reset-btn", "style"),
+    Input("world-map", "clickData"),
+    Input("reset-btn", "n_clicks"),
+    State("selected-country", "data"),
 )
-def cb_map(click_data, _):
-    if ctx.triggered_id == "reset-btn":
-        click_data = None
-    sel = get_country(click_data)
-    btn = {
-        "marginLeft":"10px","fontSize":"9px",
-        "padding":"2px 8px","borderRadius":"5px",
-        "border":"1px solid #4a7ab5","background":"transparent",
-        "color":"#90aac8","cursor":"pointer",
-        "display":"block" if sel else "none",
-    }
-    return fig_map(sel), btn
+def cb_country_state(map_click, _, current_country):
+    triggered = ctx.triggered_id
+
+    if triggered == "reset-btn":
+        country = DEFAULT
+    elif triggered == "world-map":
+        country = get_country(map_click) or current_country or DEFAULT
+    else:
+        country = current_country or DEFAULT
+
+    country = selected_or_default(country)
+    highlight = country if country != DEFAULT else None
+    btn_style = RESET_BTN_SHOWN if country != DEFAULT else RESET_BTN_HIDDEN
+
+    return (
+        country,
+        fig_map(highlight),
+        f"Country filter map — {country}",
+        btn_style,
+    )
+
+
+# 1. KPI cards
+@app.callback(
+    Output("kpi-row", "children"),
+    Input("selected-country", "data"),
+)
+def cb_kpis(country):
+    return make_kpis(selected_or_default(country))
+
+
+@app.callback(
+    Output("footer-note", "children"),
+    Input("selected-country", "data"),
+)
+def cb_footer(country):
+    return make_footer_note(selected_or_default(country))
 
 
 # 2. Top Categories
 @app.callback(
-    Output("cat-chart","figure"),
-    Output("cat-title","children"),
-    Input("world-map","clickData"),
-    Input("reset-btn","n_clicks"),
+    Output("cat-chart", "figure"),
+    Output("cat-title", "children"),
+    Input("selected-country", "data"),
 )
-def cb_cats(click_data, _):
-    if ctx.triggered_id == "reset-btn":
-        click_data = None
-    country = get_country(click_data) or DEFAULT
-    return fig_categories(country), f"Top Categories — {country}"
+def cb_cats(country):
+    country = selected_or_default(country)
+    return fig_categories(country), f"Most viewed categories — {country}"
 
 
-# 3. Left panel : heatmap ↔ channels
+# 3. Left panel : heatmap -> channels
 @app.callback(
     Output("left-chart",        "figure"),
     Output("left-title",        "children"),
@@ -703,29 +987,18 @@ def cb_cats(click_data, _):
     Output("selected-cat",      "data"),
     Input("cat-chart",          "clickData"),
     Input("back-btn",           "n_clicks"),
-    Input("world-map",          "clickData"),
-    Input("reset-btn",          "n_clicks"),
+    Input("selected-country",   "data"),
     Input("metric-dd",          "value"),
     State("selected-cat",       "data"),
 )
-def cb_left(cat_click, back_clicks, map_click, reset_clicks,
-            metric, selected_cat):
+def cb_left(cat_click, back_clicks, country, metric, selected_cat):
     triggered = ctx.triggered_id
+    country = selected_or_default(country)
 
-    BACK_BTN_HIDDEN = {
-        "fontSize":"9px","padding":"2px 8px","borderRadius":"5px",
-        "cursor":"pointer","border":"1px solid #4a7ab5",
-        "background":"#EBF3FB","color":"#1a3a5c","display":"none",
-    }
-    BACK_BTN_SHOWN = {**BACK_BTN_HIDDEN, "display":"block"}
-
-    if triggered in ("back-btn","world-map","reset-btn"):
-        if triggered == "reset-btn":
-            map_click = None
-        country = get_country(map_click) or DEFAULT
+    if triggered in ("back-btn", "selected-country"):
         return (fig_heatmap(country, metric),
-                " Best Day & Hour to publish",
-                {"display":"block"}, BACK_BTN_HIDDEN, None)
+                " When do trending videos perform best?",
+                {"display":"none"}, BACK_BTN_HIDDEN, None)
 
     if triggered == "cat-chart" and cat_click:
         try:
@@ -734,34 +1007,33 @@ def cb_left(cat_click, back_clicks, map_click, reset_clicks,
             category = None
         if category:
             return (fig_channels_for_category(category),
-                    f" Top Channels — {category}",
+                    [
+                        html.Div(f"Exploring category: {category}"),
+                        html.Div("Click a channel to see its country view mix.", style={"fontSize":"9px", "fontWeight":"500", "color":"#64748b", "marginTop":"1px"}),
+                    ],
                     {"display":"none"}, BACK_BTN_SHOWN, category)
 
     if triggered == "metric-dd" and not selected_cat:
-        country = get_country(map_click) or DEFAULT
         return (fig_heatmap(country, metric),
-                " Best Day & Hour — Task 1",
-                {"display":"block"}, BACK_BTN_HIDDEN, None)
+                " When do trending videos perform best?",
+                {"display":"none"}, BACK_BTN_HIDDEN, None)
 
-    country = get_country(map_click) or DEFAULT
     return (fig_heatmap(country, metric),
-            " Best Day & Hour — Task 1",
-            {"display":"block"}, BACK_BTN_HIDDEN, None)
+            " When do trending videos perform best?",
+            {"display":"none"}, BACK_BTN_HIDDEN, None)
 
 
-# 4. Middle panel : scatterplot ↔ donut
+# 4. Middle panel : scatterplot -> donut
 @app.callback(
     Output("scatter",       "figure"),
     Output("scatter-title", "children"),
-    Input("world-map",      "clickData"),
-    Input("reset-btn",      "n_clicks"),
-    Input("left-chart",     "clickData"),
-    State("selected-cat",   "data"),
+    Input("selected-country", "data"),
+    Input("left-chart",       "clickData"),
+    State("selected-cat",     "data"),
 )
-def cb_scatter(map_click, _, left_click, selected_cat):
+def cb_scatter(country, left_click, selected_cat):
     triggered = ctx.triggered_id
 
-    # Channel clicked → show donut
     if triggered == "left-chart" and left_click and selected_cat:
         try:
             channel = left_click["points"][0]["y"]
@@ -770,15 +1042,13 @@ def cb_scatter(map_click, _, left_click, selected_cat):
         if channel:
             return (
                 fig_donut(channel),
-                f" Views by Country — {channel[:25]}",
+                f" Country view mix — {channel[:25]}",
             )
 
-    # Otherwise show scatterplot
-    if triggered == "reset-btn":
-        map_click = None
+    country = selected_or_default(country)
     return (
-        fig_scatter(get_country(map_click)),
-        " Views vs Engagement — Viral Videos",
+        fig_scatter(country),
+        " Do viral videos also get strong engagement?",
     )
 
 
@@ -788,18 +1058,16 @@ def cb_scatter(map_click, _, left_click, selected_cat):
     Output("trend-detail", "children"),
     Output("trend-title",  "children"),
     Output("sel-vid",      "data"),
-    Input("world-map",     "clickData"),
-    Input("reset-btn",     "n_clicks"),
-    Input("trend-bar",     "clickData"),
-    State("sel-vid",       "data"),
+    Input("selected-country", "data"),
+    Input("trend-bar",       "clickData"),
+    State("sel-vid",         "data"),
 )
-def cb_trending(map_click, _, bar_click, cur_vid):
+def cb_trending(country, bar_click, cur_vid):
     triggered = ctx.triggered_id
-    if triggered == "reset-btn":
-        map_click = None
-    country = get_country(map_click)
+    country = selected_or_default(country)
     videos  = get_videos(country)
-    title   = f" Top 15 Trending — {country or 'Global'}"
+    title   = f" Top 9 Trending Videos by Views — {country}"
+
     if triggered == "trend-bar" and bar_click:
         try:
             vid_id = bar_click["points"][0]["customdata"][0]
@@ -809,8 +1077,8 @@ def cb_trending(map_click, _, bar_click, cur_vid):
         video  = next((v for v in videos if v["id"] == new_id), None)
         return (fig_trending(videos, new_id),
                 make_detail(video), title, new_id)
-    return fig_trending(videos), make_detail(None), title, None
 
+    return fig_trending(videos), make_detail(None), title, None
 
 # ══════════════════════════════════════════════════════════════
 server = app.server
